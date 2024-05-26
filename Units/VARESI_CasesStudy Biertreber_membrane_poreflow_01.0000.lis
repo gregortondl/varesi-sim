@@ -1215,11 +1215,11 @@ x[127]   <u_membrane001.separation_factor> =   0.046016  converged
 
 ========================================================================
 Solution
-Start:	May 08 2024, 16:24:58.701
-End:  	May 08 2024, 16:24:58.978
-Actual Time:	0.277000 seconds
+Start:	May 26 2024, 16:48:23.433
+End:  	May 26 2024, 16:48:23.617
+Actual Time:	0.184000 seconds
 CPU Time:   	0.156000 seconds
-CPU Percentage:	13%
+CPU Percentage:	20%
 0 errors (0 recovered errors)
 0 warnings (0 recovered warnings)
 ========================================================================
