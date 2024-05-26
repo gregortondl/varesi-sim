@@ -2947,12 +2947,11 @@ Group contains the following equations:
 fermenter001.fc_fuel
 
 Initializing ...
-errf = 324.949 (>5.25588e-05)
+errf = 0.00134905 (>5.25588e-05)
 
 
 1. iteration step
-errx = 0.996932 (>5.25588e-05)
-Group converged with errf= 0 (<=5.25588e-05)
+Group converged with errx= 4.13883e-06 (<=5.25588e-05)
 --------------------------------------------------
 Solving group 231, a group with 1 elements
 
@@ -2963,12 +2962,11 @@ Group contains the following equations:
 fermenter001.fc_bioslurry
 
 Initializing ...
-errf = 212.414 (>5.25588e-05)
+errf = 0.00381401 (>5.25588e-05)
 
 
 1. iteration step
-errx = 0.995314 (>5.25588e-05)
-Group converged with errf= 0 (<=5.25588e-05)
+Group converged with errx= 1.78714e-05 (<=5.25588e-05)
 --------------------------------------------------
 Solving group 232, a group with 1 elements
 
@@ -2979,12 +2977,11 @@ Group contains the following equations:
 fermenter001.fc_biogas
 
 Initializing ...
-errf = 111.535 (>5.25588e-05)
+errf = 0.00483694 (>5.25588e-05)
 
 
 1. iteration step
-errx = 0.991114 (>5.25588e-05)
-Group converged with errf= 0 (<=5.25588e-05)
+Group converged with errx= 4.29817e-05 (<=5.25588e-05)
 
 ========================================================================
 System solution finished.
@@ -3358,11 +3355,11 @@ x[362]   <fermenter001.mfl_c_biogas>      =     112.53  converged
 
 ========================================================================
 Solution
-Start:	Mar 07 2024, 11:20:37.097
-End:  	Mar 07 2024, 11:20:37.407
-Actual Time:	0.310000 seconds
-CPU Time:   	0.046000 seconds
-CPU Percentage:	1%
+Start:	May 22 2024, 15:53:54.237
+End:  	May 22 2024, 15:53:54.569
+Actual Time:	0.332000 seconds
+CPU Time:   	0.250000 seconds
+CPU Percentage:	19%
 0 errors (0 recovered errors)
 0 warnings (0 recovered warnings)
 ========================================================================
