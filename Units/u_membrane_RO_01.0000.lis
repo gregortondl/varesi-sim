@@ -1,0 +1,1459 @@
+========================================================================
+||
+||     PSStat - Static Solver
+||     Version 8.0 U, Release 17, Build 2459, Aug 18 2023 08:49:32 
+||
+========================================================================
+
+Loading system ...
+
+System has been loaded successfully.
+System analysis ...
+========================================================================
+System model contains 149 variables
+63 variables set to fixed values
+System to be solved contains 86 variables and 86 equations
+85 groups found. Largest group contains 2 variables.
+========================================================================
+System analysis finished.
+
+
+Starting system solution .... 
+========================================================================
+--------------------------------------------------
+Solving group 1, a group with 1 elements
+
+Group contains the following variables:
+organic_compound.SubstNr
+
+Group contains the following equations:
+organic_compound.fSubstNr1
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 2, a group with 1 elements
+
+Group contains the following variables:
+organic_compound.wC
+
+Group contains the following equations:
+organic_compound.fmass_sum
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 3, a group with 1 elements
+
+Group contains the following variables:
+organic_compound.lhv
+
+Group contains the following equations:
+organic_compound.flhv_boie
+
+Initializing ...
+errf = 25284.7 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.99996 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 4, a group with 1 elements
+
+Group contains the following variables:
+organic_compound.hhv
+
+Group contains the following equations:
+organic_compound.fhhv
+
+Initializing ...
+errf = 27031 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999963 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 5, a group with 1 elements
+
+Group contains the following variables:
+organic_compound.hf298
+
+Group contains the following equations:
+organic_compound.fhf1
+
+Initializing ...
+errf = 4015.88 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1.00025 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 6, a group with 1 elements
+
+Group contains the following variables:
+organic_compound.e_chem
+
+Group contains the following equations:
+organic_compound.fe_chem
+
+Initializing ...
+errf = 27031 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999963 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 7, a group with 1 elements
+
+Group contains the following variables:
+ash.wAsh
+
+Group contains the following equations:
+ash.fmass
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 8, a group with 1 elements
+
+Group contains the following variables:
+ash.rho
+
+Group contains the following equations:
+ash.frho
+
+Initializing ...
+errf = 2649 (>8.19232e-05)
+
+
+1. iteration step
+errx = 2649 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 9, a group with 1 elements
+
+Group contains the following variables:
+feed.t
+
+Group contains the following equations:
+u_source_o_001.ft
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 10, a group with 1 elements
+
+Group contains the following variables:
+feed.h_waf
+
+Group contains the following equations:
+feed.fh
+
+Initializing ...
+errf = 64.1081 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.984641 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 11, a group with 1 elements
+
+Group contains the following variables:
+feed.p
+
+Group contains the following equations:
+u_source_o_001.fp
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 12, a group with 1 elements
+
+Group contains the following variables:
+feed.h_total
+
+Group contains the following equations:
+feed.fh_total2
+
+Initializing ...
+errf = 13470.9 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1.00007 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 13, a group with 1 elements
+
+Group contains the following variables:
+feed.massflow
+
+Group contains the following equations:
+u_source_o_001.fmassflow
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 14, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.p
+
+Group contains the following equations:
+u_pump_o_001.fpress_ratio
+
+Initializing ...
+errf = 40 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.8 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 15, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.h_total
+
+Group contains the following equations:
+u_pump_o_001.fcompr
+
+Initializing ...
+errf = 1.27924e+06 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1.00007 (>8.19232e-05)
+Group converged with errf= 4.54747e-11 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 16, a group with 1 elements
+
+Group contains the following variables:
+electric_connection.power
+
+Group contains the following equations:
+u_pump_o_001.f2h
+
+Initializing ...
+errf = 4650.99 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.811551 (>8.19232e-05)
+Group converged with errf= 9.09495e-13 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 17, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.water_content
+
+Group contains the following equations:
+u_pump_o_001.fwater_cont
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 18, a group with 1 elements
+
+Group contains the following variables:
+u_membrane001.osm_pressure
+
+Group contains the following equations:
+u_membrane001.fpress4
+
+Initializing ...
+errf = 39 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.975 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 19, a group with 1 elements
+
+Group contains the following variables:
+u_membrane001.dp_module
+
+Group contains the following equations:
+u_membrane001.fpress3
+
+Initializing ...
+errf = 46 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.978723 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 20, a group with 1 elements
+
+Group contains the following variables:
+permeate.p
+
+Group contains the following equations:
+u_membrane001.fpress1
+
+Initializing ...
+errf = 1 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.333333 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 21, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.ash_content
+
+Group contains the following equations:
+u_pump_o_001.fash_cont
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 22, a group with 2 elements
+
+Group contains the following variables:
+feed_pressurized.h_waf	feed_pressurized.t
+
+Group contains the following equations:
+feed_pressurized.fh	feed_pressurized.fh_total2
+
+Initializing ...
+errf = 65.6105 (>0.000115857)
+
+
+1. iteration step
+errx = 0.984851 (>0.000115857)
+errf = 0.000496092 (>0.000115857)
+
+
+2. iteration step
+Group converged with errx= 6.87318e-06 (<=0.000115857)
+--------------------------------------------------
+Solving group 23, a group with 1 elements
+
+Group contains the following variables:
+permeate.t
+
+Group contains the following equations:
+u_membrane001.ftemp1
+
+Initializing ...
+errf = 0.49325 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.0108423 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 24, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.rho
+
+Group contains the following equations:
+u_pump_o_001.f_dens
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 25, a group with 1 elements
+
+Group contains the following variables:
+permeate.rho
+
+Group contains the following equations:
+u_membrane001.fdens1
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 26, a group with 1 elements
+
+Group contains the following variables:
+permeate.h_waf
+
+Group contains the following equations:
+permeate.fh
+
+Initializing ...
+errf = 57.8337 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.983003 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 27, a group with 1 elements
+
+Group contains the following variables:
+permeate.s_waf
+
+Group contains the following equations:
+permeate.fs
+
+Initializing ...
+errf = 0.208607 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.263595 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 28, a group with 1 elements
+
+Group contains the following variables:
+permeate.e_waf
+
+Group contains the following equations:
+permeate.fe
+
+Initializing ...
+errf = 27031.3 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999963 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 29, a group with 1 elements
+
+Group contains the following variables:
+permeate.water_content
+
+Group contains the following equations:
+u_membrane001.fdrym1
+
+Initializing ...
+errf = 0.0096 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.00960384 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 30, a group with 1 elements
+
+Group contains the following variables:
+permeate.h_total
+
+Group contains the following equations:
+permeate.fh_total2
+
+Initializing ...
+errf = 15776.6 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1.00006 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 31, a group with 1 elements
+
+Group contains the following variables:
+permeate.lhv
+
+Group contains the following equations:
+permeate.flhv
+
+Initializing ...
+errf = 2433.01 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1.00041 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 32, a group with 1 elements
+
+Group contains the following variables:
+permeate.hhv
+
+Group contains the following equations:
+permeate.fhhv
+
+Initializing ...
+errf = 9.27217 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.90265 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 33, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.massflow
+
+Group contains the following equations:
+u_pump_o_001.fmassflow
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 34, a group with 1 elements
+
+Group contains the following variables:
+permeate.massflow
+
+Group contains the following equations:
+u_membrane001.fmass1
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 35, a group with 1 elements
+
+Group contains the following variables:
+permeate.volflow
+
+Group contains the following equations:
+permeate.fvolflow
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 36, a group with 1 elements
+
+Group contains the following variables:
+permeate.Energy
+
+Group contains the following equations:
+permeate.fEnergy2
+
+Initializing ...
+errf = 1.12426e+06 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1.00321 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 37, a group with 1 elements
+
+Group contains the following variables:
+permeate.Exergy
+
+Group contains the following equations:
+permeate.fExergy2
+
+Initializing ...
+errf = 3949.38 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.523139 (>8.19232e-05)
+Group converged with errf= 9.09495e-13 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 38, a group with 1 elements
+
+Group contains the following variables:
+retentate.p
+
+Group contains the following equations:
+u_membrane001.fpress2
+
+Initializing ...
+errf = 37 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.822222 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 39, a group with 1 elements
+
+Group contains the following variables:
+retentate.t
+
+Group contains the following equations:
+u_membrane001.ftemp2
+
+Initializing ...
+errf = 0.49325 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.0108423 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 40, a group with 1 elements
+
+Group contains the following variables:
+retentate.rho
+
+Group contains the following equations:
+u_membrane001.fdens2
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 41, a group with 1 elements
+
+Group contains the following variables:
+retentate.h_waf
+
+Group contains the following equations:
+retentate.fh
+
+Initializing ...
+errf = 57.8337 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.983003 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 42, a group with 1 elements
+
+Group contains the following variables:
+retentate.s_waf
+
+Group contains the following equations:
+retentate.fs
+
+Initializing ...
+errf = 0.208607 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.263595 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 43, a group with 1 elements
+
+Group contains the following variables:
+retentate.e_waf
+
+Group contains the following equations:
+retentate.fe
+
+Initializing ...
+errf = 27031.3 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999963 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 44, a group with 1 elements
+
+Group contains the following variables:
+retentate.massflow
+
+Group contains the following equations:
+u_membrane001.fmass2
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 45, a group with 1 elements
+
+Group contains the following variables:
+retentate.water_content
+
+Group contains the following equations:
+u_membrane001.fmass3
+
+Initializing ...
+errf = 4.8 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.0159893 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 46, a group with 1 elements
+
+Group contains the following variables:
+retentate.ash_content
+
+Group contains the following equations:
+u_membrane001.fmass4
+
+Initializing ...
+errf = 0.01 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.001001 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 47, a group with 1 elements
+
+Group contains the following variables:
+retentate.h_total
+
+Group contains the following equations:
+retentate.fh_total2
+
+Initializing ...
+errf = 11195.3 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1.00009 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 48, a group with 1 elements
+
+Group contains the following variables:
+retentate.lhv
+
+Group contains the following equations:
+retentate.flhv
+
+Initializing ...
+errf = 8131.43 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999877 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 49, a group with 1 elements
+
+Group contains the following variables:
+retentate.hhv
+
+Group contains the following equations:
+retentate.fhhv
+
+Initializing ...
+errf = 10260.9 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999903 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 50, a group with 1 elements
+
+Group contains the following variables:
+retentate.volflow
+
+Group contains the following equations:
+retentate.fvolflow
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 51, a group with 1 elements
+
+Group contains the following variables:
+retentate.Energy
+
+Group contains the following equations:
+retentate.fEnergy2
+
+Initializing ...
+errf = 4.13249e+06 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.99913 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 52, a group with 1 elements
+
+Group contains the following variables:
+retentate.Exergy
+
+Group contains the following equations:
+retentate.fExergy2
+
+Initializing ...
+errf = 5.16356e+06 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999303 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 53, a group with 1 elements
+
+Group contains the following variables:
+feed.s_waf
+
+Group contains the following equations:
+feed.fs
+
+Initializing ...
+errf = 0.191252 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.23648 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 54, a group with 1 elements
+
+Group contains the following variables:
+feed.e_waf
+
+Group contains the following equations:
+feed.fe
+
+Initializing ...
+errf = 27032.4 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999963 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 55, a group with 1 elements
+
+Group contains the following variables:
+feed.lhv
+
+Group contains the following equations:
+feed.flhv
+
+Initializing ...
+errf = 2849.21 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999649 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 56, a group with 1 elements
+
+Group contains the following variables:
+feed.hhv
+
+Group contains the following equations:
+feed.fhhv
+
+Initializing ...
+errf = 5135.08 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999805 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 57, a group with 1 elements
+
+Group contains the following variables:
+feed.volflow
+
+Group contains the following equations:
+feed.fvolflow
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 58, a group with 1 elements
+
+Group contains the following variables:
+feed.Energy
+
+Group contains the following equations:
+feed.fEnergy2
+
+Initializing ...
+errf = 3.02689e+06 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.998812 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 59, a group with 1 elements
+
+Group contains the following variables:
+feed.Exergy
+
+Group contains the following equations:
+feed.fExergy2
+
+Initializing ...
+errf = 5.17097e+06 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999304 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 60, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.s_waf
+
+Group contains the following equations:
+feed_pressurized.fs
+
+Initializing ...
+errf = 0.186916 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.229885 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 61, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.e_waf
+
+Group contains the following equations:
+feed_pressurized.fe
+
+Initializing ...
+errf = 27031.8 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999963 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 62, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.lhv
+
+Group contains the following equations:
+feed_pressurized.flhv
+
+Initializing ...
+errf = 2849.21 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999649 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 63, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.hhv
+
+Group contains the following equations:
+feed_pressurized.fhhv
+
+Initializing ...
+errf = 5135.08 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999805 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 64, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.volflow
+
+Group contains the following equations:
+feed_pressurized.fvolflow
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 65, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.Energy
+
+Group contains the following equations:
+feed_pressurized.fEnergy2
+
+Initializing ...
+errf = 3.03204e+06 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.998814 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 66, a group with 1 elements
+
+Group contains the following variables:
+feed_pressurized.Exergy
+
+Group contains the following equations:
+feed_pressurized.fExergy2
+
+Initializing ...
+errf = 5.17492e+06 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.999305 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 67, a group with 1 elements
+
+Group contains the following variables:
+u_mot_el_001.power
+
+Group contains the following equations:
+u_mot_el_001.f1b
+
+Initializing ...
+errf = 1.30088 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.817167 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 68, a group with 1 elements
+
+Group contains the following variables:
+u_mot_el_001.E_loss
+
+Group contains the following equations:
+u_mot_el_001.f_E_loss_b
+
+Initializing ...
+errf = 0.951103 (>8.19232e-05)
+
+
+1. iteration step
+errx = 19.4511 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 69, a group with 1 elements
+
+Group contains the following variables:
+u_source_o_001.volflow
+
+Group contains the following equations:
+u_source_o_001.fvolflow
+
+Initializing ...
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 70, a group with 1 elements
+
+Group contains the following variables:
+u_pump_o_001.E_loss
+
+Group contains the following equations:
+u_pump_o_001.f2_E_loss
+
+Initializing ...
+errf = 0.505823 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1.02357 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 71, a group with 1 elements
+
+Group contains the following variables:
+u_sink_o_002.massflow
+
+Group contains the following equations:
+u_sink_o_002.fmassflow
+
+Initializing ...
+errf = 499 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.998 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 72, a group with 1 elements
+
+Group contains the following variables:
+u_sink_o_002.volflow
+
+Group contains the following equations:
+u_sink_o_002.fvolflow
+
+Initializing ...
+errf = 0.5 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 73, a group with 1 elements
+
+Group contains the following variables:
+u_sink_o_002.p
+
+Group contains the following equations:
+u_sink_o_002.fp
+
+Initializing ...
+errf = 44 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.977778 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 74, a group with 1 elements
+
+Group contains the following variables:
+u_sink_o_002.t
+
+Group contains the following equations:
+u_sink_o_002.ft
+
+Initializing ...
+errf = 44.4932 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.978019 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 75, a group with 1 elements
+
+Group contains the following variables:
+u_sink_o_001.massflow
+
+Group contains the following equations:
+u_sink_o_001.fmassflow
+
+Initializing ...
+errf = 499 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.998 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 76, a group with 1 elements
+
+Group contains the following variables:
+u_sink_o_001.volflow
+
+Group contains the following equations:
+u_sink_o_001.fvolflow
+
+Initializing ...
+errf = 0.5 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 77, a group with 1 elements
+
+Group contains the following variables:
+u_sink_o_001.p
+
+Group contains the following equations:
+u_sink_o_001.fp
+
+Initializing ...
+errf = 2 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.666667 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 78, a group with 1 elements
+
+Group contains the following variables:
+u_sink_o_001.t
+
+Group contains the following equations:
+u_sink_o_001.ft
+
+Initializing ...
+errf = 44.4932 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.978019 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 79, a group with 1 elements
+
+Group contains the following variables:
+u_membrane001.Q_loss
+
+Group contains the following equations:
+u_membrane001.fenergy1
+
+Initializing ...
+errf = 37513.3 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.912437 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 80, a group with 1 elements
+
+Group contains the following variables:
+u_membrane001.membrane_area
+
+Group contains the following equations:
+u_membrane001.size1
+
+Initializing ...
+errf = 11.5 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.92 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 81, a group with 1 elements
+
+Group contains the following variables:
+u_membrane001.membrane_constant
+
+Group contains the following equations:
+u_membrane001.size2
+
+Initializing ...
+errf = 1.61724e+08 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1000 (>8.19232e-05)
+Group converged with errf= 2.26838e-09 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 82, a group with 1 elements
+
+Group contains the following variables:
+u_membrane001.drymatter_retentate
+
+Group contains the following equations:
+u_membrane001.fdrym2
+
+Initializing ...
+errf = 0.6004 (>8.19232e-05)
+
+
+1. iteration step
+errx = 1.5025 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 83, a group with 1 elements
+
+Group contains the following variables:
+u_membrane001.retention_coefficient
+
+Group contains the following equations:
+u_membrane001.retcof1
+
+Initializing ...
+errf = 0.002 (>8.19232e-05)
+
+
+1. iteration step
+errx = 0.00200401 (>8.19232e-05)
+Group converged with errf= 0 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 84, a group with 1 elements
+
+Group contains the following variables:
+u_membrane001.enrichment_factor
+
+Group contains the following equations:
+u_membrane001.enrfac1
+
+Initializing ...
+errf = 0.998 (>8.19232e-05)
+
+
+1. iteration step
+errx = 499 (>8.19232e-05)
+Group converged with errf= 4.33681e-19 (<=8.19232e-05)
+--------------------------------------------------
+Solving group 85, a group with 1 elements
+
+Group contains the following variables:
+u_membrane001.separation_factor
+
+Group contains the following equations:
+u_membrane001.sepfac1
+
+Initializing ...
+errf = 0.998399 (>8.19232e-05)
+
+
+1. iteration step
+errx = 623.75 (>8.19232e-05)
+Group converged with errf= 2.73219e-17 (<=8.19232e-05)
+
+========================================================================
+System solution finished.
+
+
+========================================================================
+Results:
+
+x[1]     <organic_compound.SubstNr>       =          1  converged
+x[2]     <organic_compound.wC>            =        0.6  converged
+x[3]     <organic_compound.wH>            =       0.08  set
+x[4]     <organic_compound.wO>            =        0.3  set
+x[5]     <organic_compound.wN>            =       0.01  set
+x[6]     <organic_compound.wS>            =      0.005  set
+x[7]     <organic_compound.wCl>           =      0.005  set
+x[8]     <organic_compound.lhv>           =      25286  converged
+x[9]     <organic_compound.hhv>           =      27032  converged
+x[10]    <organic_compound.hf298>         =    -4014.9  converged
+x[11]    <organic_compound.e_chem>        =      27032  converged
+x[12]    <ash.wAsh>                       =          1  converged
+x[13]    <ash.wAl2O3>                     =          0  set
+x[14]    <ash.wCaAl2O4>                   =          0  set
+x[15]    <ash.wCaCl2>                     =          0  set
+x[16]    <ash.wCaCO3>                     =          0  set
+x[17]    <ash.wCaO>                       =          0  set
+x[18]    <ash.wCaOH2>                     =          0  set
+x[19]    <ash.wCaS>                       =          0  set
+x[20]    <ash.wCaSO4>                     =          0  set
+x[21]    <ash.wCo>                        =          0  set
+x[22]    <ash.wCoO>                       =          0  set
+x[23]    <ash.wCu>                        =          0  set
+x[24]    <ash.wCu2O>                      =          0  set
+x[25]    <ash.wCuO>                       =          0  set
+x[26]    <ash.wCuAl2O4>                   =          0  set
+x[27]    <ash.wCuS>                       =          0  set
+x[28]    <ash.wFe>                        =          0  set
+x[29]    <ash.wFeO>                       =          0  set
+x[30]    <ash.wFe3O4>                     =          0  set
+x[31]    <ash.wFe2O3>                     =          0  set
+x[32]    <ash.wFe2SiO4>                   =          0  set
+x[33]    <ash.wK2O>                       =          0  set
+x[34]    <ash.wMgAl2O4>                   =          0  set
+x[35]    <ash.wMgCO3>                     =          0  set
+x[36]    <ash.wMgO>                       =          0  set
+x[37]    <ash.wMg2SiO4>                   =          0  set
+x[38]    <ash.wMn>                        =          0  set
+x[39]    <ash.wMnO>                       =          0  set
+x[40]    <ash.wMn3O4>                     =          0  set
+x[41]    <ash.wMn2O3>                     =          0  set
+x[42]    <ash.wMnO2>                      =          0  set
+x[43]    <ash.wNaCl>                      =          0  set
+x[44]    <ash.wNa2O>                      =          0  set
+x[45]    <ash.wNi>                        =          0  set
+x[46]    <ash.wNiO>                       =          0  set
+x[47]    <ash.wNiAl2O4>                   =          0  set
+x[48]    <ash.wSiO2>                      =          0  set
+x[49]    <ash.wTiO2>                      =          0  set
+x[50]    <ash.wZnO>                       =          0  set
+x[51]    <ash.wZnS>                       =          0  set
+x[52]    <ash.wZrO2>                      =          0  set
+x[53]    <ash.rho>                        =          1  converged
+x[54]    <electric_connection.power>      =     1.5919  converged
+x[55]    <permeate.p>                     =          3  converged
+x[56]    <permeate.t>                     =     45.493  converged
+x[57]    <permeate.rho>                   =       1000  converged
+x[58]    <permeate.h_waf>                 =     58.834  converged
+x[59]    <permeate.s_waf>                 =    0.79139  converged
+x[60]    <permeate.e_waf>                 =      27032  converged
+x[61]    <permeate.water_content>         =     0.9996  converged
+x[62]    <permeate.ash_content>           =      2e-05  set
+x[63]    <permeate.h_total>               =     -15776  converged
+x[64]    <permeate.lhv>                   =      -2432  converged
+x[65]    <permeate.hhv>                   =     10.272  converged
+x[66]    <permeate.massflow>              =        500  converged
+x[67]    <permeate.volflow>               =        0.5  converged
+x[68]    <permeate.Energy>                =    -311.29  converged
+x[69]    <permeate.Exergy>                =      2.097  converged
+x[70]    <retentate.p>                    =         45  converged
+x[71]    <retentate.t>                    =     45.493  converged
+x[72]    <retentate.rho>                  =       1000  converged
+x[73]    <retentate.h_waf>                =     58.834  converged
+x[74]    <retentate.s_waf>                =    0.79139  converged
+x[75]    <retentate.e_waf>                =      27032  converged
+x[76]    <retentate.water_content>        =     0.6004  converged
+x[77]    <retentate.ash_content>          =    0.01998  converged
+x[78]    <retentate.h_total>              =     -11194  converged
+x[79]    <retentate.lhv>                  =     8132.4  converged
+x[80]    <retentate.hhv>                  =      10262  converged
+x[81]    <retentate.massflow>             =        500  converged
+x[82]    <retentate.volflow>              =        0.5  converged
+x[83]    <retentate.Energy>               =     1148.9  converged
+x[84]    <retentate.Exergy>               =     1435.3  converged
+x[85]    <feed.p>                         =          1  converged
+x[86]    <feed.t>                         =         50  converged
+x[87]    <feed.rho>                       =       1000  set
+x[88]    <feed.h_waf>                     =     65.108  converged
+x[89]    <feed.s_waf>                     =    0.80875  converged
+x[90]    <feed.e_waf>                     =      27033  converged
+x[91]    <feed.water_content>             =        0.8  set
+x[92]    <feed.ash_content>               =       0.01  set
+x[93]    <feed.h_total>                   =     -13470  converged
+x[94]    <feed.lhv>                       =     2850.2  converged
+x[95]    <feed.hhv>                       =     5136.1  converged
+x[96]    <feed.massflow>                  =       1000  converged
+x[97]    <feed.volflow>                   =          1  converged
+x[98]    <feed.Energy>                    =      841.8  converged
+x[99]    <feed.Exergy>                    =     1437.4  converged
+x[100]   <feed_pressurized.p>             =         50  converged
+x[101]   <feed_pressurized.t>             =     50.493  converged
+x[102]   <feed_pressurized.rho>           =       1000  converged
+x[103]   <feed_pressurized.h_waf>         =       65.8  converged
+x[104]   <feed_pressurized.s_waf>         =    0.81308  converged
+x[105]   <feed_pressurized.e_waf>         =      27033  converged
+x[106]   <feed_pressurized.water_content> =        0.8  converged
+x[107]   <feed_pressurized.ash_content>   =       0.01  converged
+x[108]   <feed_pressurized.h_total>       =     -13465  converged
+x[109]   <feed_pressurized.lhv>           =     2850.2  converged
+x[110]   <feed_pressurized.hhv>           =     5136.1  converged
+x[111]   <feed_pressurized.massflow>      =       1000  converged
+x[112]   <feed_pressurized.volflow>       =          1  converged
+x[113]   <feed_pressurized.Energy>        =     843.23  converged
+x[114]   <feed_pressurized.Exergy>        =     1438.5  converged
+x[115]   <u_mot_el_001.power>             =     1.6408  converged
+x[116]   <u_mot_el_001.E_loss>            =   0.048897  converged
+x[117]   <u_source_o_001.massflow>        =       1000  set
+x[118]   <u_source_o_001.volflow>         =          1  converged
+x[119]   <u_source_o_001.p>               =          1  set
+x[120]   <u_source_o_001.t>               =         50  set
+x[121]   <u_pump_o_001.eta_s>             =         95  set
+x[122]   <u_pump_o_001.press_ratio>       =         50  set
+x[123]   <u_pump_o_001.E_loss>            =    0.49418  converged
+x[124]   <u_sink_o_002.massflow>          =        500  converged
+x[125]   <u_sink_o_002.volflow>           =        0.5  converged
+x[126]   <u_sink_o_002.p>                 =         45  converged
+x[127]   <u_sink_o_002.t>                 =     45.493  converged
+x[128]   <u_sink_o_001.massflow>          =        500  converged
+x[129]   <u_sink_o_001.volflow>           =        0.5  converged
+x[130]   <u_sink_o_001.p>                 =          3  converged
+x[131]   <u_sink_o_001.t>                 =     45.493  converged
+x[132]   <u_membrane001.dp_module>        =         47  converged
+x[133]   <u_membrane001.dp_retentate>     =          5  set
+x[134]   <u_membrane001.dp_friction>      =          3  set
+x[135]   <u_membrane001.osmotic_coeff>    =          2  set
+x[136]   <u_membrane001.osm_pressure>     =         40  converged
+x[137]   <u_membrane001.dT_permeate>      =          5  set
+x[138]   <u_membrane001.dT_retentate>     =          5  set
+x[139]   <u_membrane001.yield>            =        0.5  set
+x[140]   <u_membrane001.Q_loss>           =      11.42  converged
+x[141]   <u_membrane001.flux>             =         40  set
+x[142]   <u_membrane001.membrane_area>    =       12.5  converged
+x[143]   <u_membrane001.membrane_constant> = 2.4734e-07  converged
+x[144]   <u_membrane001.drymatter_permeate> =     0.0004  set
+x[145]   <u_membrane001.drymatter_retentate> =     0.3996  converged
+x[146]   <u_membrane001.retention_coefficient> =      0.998  converged
+x[147]   <u_membrane001.enrichment_factor> =      0.002  converged
+x[148]   <u_membrane001.separation_factor> =  0.0016006  converged
+x[149]   <u_membrane001.cp_org>           =       4.18  set
+
+========================================================================
+Solution
+Start:	Jun 13 2024, 09:44:18.752
+End:  	Jun 13 2024, 09:44:18.924
+Actual Time:	0.172000 seconds
+CPU Time:   	0.140000 seconds
+CPU Percentage:	20%
+0 errors (0 recovered errors)
+0 warnings (0 recovered warnings)
+========================================================================
