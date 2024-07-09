@@ -10,8 +10,8 @@ Loading system ...
 System has been loaded successfully.
 System analysis ...
 ========================================================================
-System model contains 146 variables
-62 variables set to fixed values
+System model contains 145 variables
+61 variables set to fixed values
 System to be solved contains 84 variables and 84 equations
 83 groups found. Largest group contains 2 variables.
 ========================================================================
@@ -30,7 +30,7 @@ Group contains the following equations:
 ash.fmass
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 2, a group with 1 elements
 
@@ -41,12 +41,12 @@ Group contains the following equations:
 ash.frho
 
 Initializing ...
-errf = 2649 (>8.27606e-05)
+errf = 2649 (>8.30455e-05)
 
 
 1. iteration step
-errx = 2649 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 2649 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 3, a group with 1 elements
 
@@ -57,7 +57,7 @@ Group contains the following equations:
 organic_compound.fSubstNr1
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 4, a group with 1 elements
 
@@ -68,7 +68,7 @@ Group contains the following equations:
 organic_compound.fmass_sum
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 5, a group with 1 elements
 
@@ -79,12 +79,12 @@ Group contains the following equations:
 organic_compound.flhv_tar
 
 Initializing ...
-errf = 38488.5 (>8.27606e-05)
+errf = 38488.5 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999974 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999974 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 6, a group with 1 elements
 
@@ -95,12 +95,12 @@ Group contains the following equations:
 organic_compound.fhhv
 
 Initializing ...
-errf = 40234.8 (>8.27606e-05)
+errf = 40234.8 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999975 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999975 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 7, a group with 1 elements
 
@@ -111,12 +111,12 @@ Group contains the following equations:
 organic_compound.fhf1
 
 Initializing ...
-errf = 9187.89 (>8.27606e-05)
+errf = 9187.89 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999891 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999891 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 8, a group with 1 elements
 
@@ -127,12 +127,12 @@ Group contains the following equations:
 organic_compound.fe_chem
 
 Initializing ...
-errf = 40234.8 (>8.27606e-05)
+errf = 40234.8 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999975 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999975 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 9, a group with 1 elements
 
@@ -143,7 +143,7 @@ Group contains the following equations:
 u_source_o_001.fp
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 10, a group with 1 elements
 
@@ -154,7 +154,7 @@ Group contains the following equations:
 u_pump_o_001.fpress_ratio
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 11, a group with 1 elements
 
@@ -165,7 +165,7 @@ Group contains the following equations:
 u_membrane001.fpress2
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 12, a group with 1 elements
 
@@ -176,7 +176,7 @@ Group contains the following equations:
 u_pump_o_001.fwater_cont
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 13, a group with 1 elements
 
@@ -187,7 +187,7 @@ Group contains the following equations:
 u_pump_o_001.fash_cont
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 14, a group with 1 elements
 
@@ -198,7 +198,7 @@ Group contains the following equations:
 u_source_o_001.ft
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 15, a group with 1 elements
 
@@ -209,12 +209,12 @@ Group contains the following equations:
 feed.fh
 
 Initializing ...
-errf = 64.1081 (>8.27606e-05)
+errf = 64.1081 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.984641 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.984641 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 16, a group with 1 elements
 
@@ -225,12 +225,12 @@ Group contains the following equations:
 feed.fh_total2
 
 Initializing ...
-errf = 10962.1 (>8.27606e-05)
+errf = 10962.1 (>8.30455e-05)
 
 
 1. iteration step
-errx = 1.00009 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 1.00009 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 17, a group with 1 elements
 
@@ -241,12 +241,12 @@ Group contains the following equations:
 u_pump_o_001.fcompr
 
 Initializing ...
-errf = 1.04131e+06 (>8.27606e-05)
+errf = 1.04131e+06 (>8.30455e-05)
 
 
 1. iteration step
-errx = 1.00009 (>8.27606e-05)
-Group converged with errf= 1.00044e-10 (<=8.27606e-05)
+errx = 1.00009 (>8.30455e-05)
+Group converged with errf= 1.00044e-10 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 18, a group with 2 elements
 
@@ -257,12 +257,12 @@ Group contains the following equations:
 feed_pressurized.fh	feed_pressurized.fh_total2
 
 Initializing ...
-errf = 65.3167 (>0.000117041)
+errf = 65.3167 (>0.000117444)
 
 
 1. iteration step
-errx = 0.984672 (>0.000117041)
-Group converged with errf= 1.66019e-05 (<=0.000117041)
+errx = 0.984672 (>0.000117444)
+Group converged with errf= 1.66019e-05 (<=0.000117444)
 --------------------------------------------------
 Solving group 19, a group with 1 elements
 
@@ -273,12 +273,12 @@ Group contains the following equations:
 u_membrane001.ftemp2
 
 Initializing ...
-errf = 0.0902861 (>8.27606e-05)
+errf = 0.0902861 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.00200234 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.00200234 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 20, a group with 1 elements
 
@@ -289,12 +289,12 @@ Group contains the following equations:
 u_pump_o_001.f_dens
 
 Initializing ...
-errf = 999 (>8.27606e-05)
+errf = 999 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 21, a group with 1 elements
 
@@ -305,7 +305,7 @@ Group contains the following equations:
 u_membrane001.fdens2
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 22, a group with 1 elements
 
@@ -316,12 +316,12 @@ Group contains the following equations:
 retentate.fh
 
 Initializing ...
-errf = 57.2766 (>8.27606e-05)
+errf = 57.2766 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.98284 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.98284 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 23, a group with 1 elements
 
@@ -332,12 +332,12 @@ Group contains the following equations:
 retentate.fs
 
 Initializing ...
-errf = 0.208607 (>8.27606e-05)
+errf = 0.208607 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.263595 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.263595 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 24, a group with 1 elements
 
@@ -348,12 +348,12 @@ Group contains the following equations:
 retentate.fe
 
 Initializing ...
-errf = 40234.5 (>8.27606e-05)
+errf = 40234.5 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999975 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999975 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 25, a group with 1 elements
 
@@ -364,7 +364,7 @@ Group contains the following equations:
 u_source_o_001.fmassflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 26, a group with 1 elements
 
@@ -375,7 +375,7 @@ Group contains the following equations:
 u_pump_o_001.fmassflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 27, a group with 1 elements
 
@@ -386,7 +386,7 @@ Group contains the following equations:
 u_membrane001.fmass1
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 28, a group with 1 elements
 
@@ -397,7 +397,7 @@ Group contains the following equations:
 u_membrane001.fmass2
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 29, a group with 1 elements
 
@@ -408,12 +408,12 @@ Group contains the following equations:
 u_membrane001.fdrym2
 
 Initializing ...
-errf = 0.001 (>8.27606e-05)
+errf = 0.001 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.00101112 (>8.27606e-05)
-Group converged with errf= 8.67362e-18 (<=8.27606e-05)
+errx = 0.00101112 (>8.30455e-05)
+Group converged with errf= 8.67362e-18 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 30, a group with 1 elements
 
@@ -424,12 +424,12 @@ Group contains the following equations:
 u_membrane001.fmass3
 
 Initializing ...
-errf = 0.5 (>8.27606e-05)
+errf = 0.5 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.00163666 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.00163666 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 31, a group with 1 elements
 
@@ -440,12 +440,12 @@ Group contains the following equations:
 u_membrane001.fash_cont1
 
 Initializing ...
-errf = 0.5 (>8.27606e-05)
+errf = 0.5 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.0526316 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.0526316 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 32, a group with 1 elements
 
@@ -456,12 +456,12 @@ Group contains the following equations:
 retentate.fh_total2
 
 Initializing ...
-errf = 6431.72 (>8.27606e-05)
+errf = 6431.72 (>8.30455e-05)
 
 
 1. iteration step
-errx = 1.00016 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 1.00016 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 33, a group with 1 elements
 
@@ -472,12 +472,12 @@ Group contains the following equations:
 retentate.flhv
 
 Initializing ...
-errf = 12747.7 (>8.27606e-05)
+errf = 12747.7 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999922 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999922 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 34, a group with 1 elements
 
@@ -488,12 +488,12 @@ Group contains the following equations:
 retentate.fhhv
 
 Initializing ...
-errf = 14886.2 (>8.27606e-05)
+errf = 14886.2 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999933 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999933 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 35, a group with 1 elements
 
@@ -504,7 +504,7 @@ Group contains the following equations:
 retentate.fvolflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 36, a group with 1 elements
 
@@ -515,12 +515,12 @@ Group contains the following equations:
 retentate.fEnergy2
 
 Initializing ...
-errf = 6.43974e+06 (>8.27606e-05)
+errf = 6.43974e+06 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999441 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999441 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 37, a group with 1 elements
 
@@ -531,12 +531,12 @@ Group contains the following equations:
 retentate.fExergy2
 
 Initializing ...
-errf = 7.47337e+06 (>8.27606e-05)
+errf = 7.47337e+06 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999519 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999519 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 38, a group with 1 elements
 
@@ -547,7 +547,7 @@ Group contains the following equations:
 u_membrane001.fpress1
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 39, a group with 1 elements
 
@@ -558,12 +558,12 @@ Group contains the following equations:
 u_membrane001.ftemp1
 
 Initializing ...
-errf = 0.0902861 (>8.27606e-05)
+errf = 0.0902861 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.00200234 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.00200234 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 40, a group with 1 elements
 
@@ -574,7 +574,7 @@ Group contains the following equations:
 u_membrane001.fdens1
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 41, a group with 1 elements
 
@@ -585,12 +585,12 @@ Group contains the following equations:
 permeate.fh
 
 Initializing ...
-errf = 57.2766 (>8.27606e-05)
+errf = 57.2766 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.98284 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.98284 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 42, a group with 1 elements
 
@@ -601,12 +601,12 @@ Group contains the following equations:
 permeate.fs
 
 Initializing ...
-errf = 0.208607 (>8.27606e-05)
+errf = 0.208607 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.263595 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.263595 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 43, a group with 1 elements
 
@@ -617,12 +617,12 @@ Group contains the following equations:
 permeate.fe
 
 Initializing ...
-errf = 40234.5 (>8.27606e-05)
+errf = 40234.5 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999975 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999975 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 44, a group with 1 elements
 
@@ -633,12 +633,12 @@ Group contains the following equations:
 permeate.fh_total2
 
 Initializing ...
-errf = 15527.7 (>8.27606e-05)
+errf = 15527.7 (>8.30455e-05)
 
 
 1. iteration step
-errx = 1.00006 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 1.00006 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 45, a group with 1 elements
 
@@ -649,12 +649,12 @@ Group contains the following equations:
 permeate.flhv
 
 Initializing ...
-errf = 2031.84 (>8.27606e-05)
+errf = 2031.84 (>8.30455e-05)
 
 
 1. iteration step
-errx = 1.00049 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 1.00049 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 46, a group with 1 elements
 
@@ -665,12 +665,12 @@ Group contains the following equations:
 permeate.fhhv
 
 Initializing ...
-errf = 401.358 (>8.27606e-05)
+errf = 401.358 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.997515 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.997515 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 47, a group with 1 elements
 
@@ -681,7 +681,7 @@ Group contains the following equations:
 permeate.fvolflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 48, a group with 1 elements
 
@@ -692,12 +692,12 @@ Group contains the following equations:
 permeate.fEnergy2
 
 Initializing ...
-errf = 925302 (>8.27606e-05)
+errf = 925302 (>8.30455e-05)
 
 
 1. iteration step
-errx = 1.00391 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 1.00391 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 49, a group with 1 elements
 
@@ -708,12 +708,12 @@ Group contains the following equations:
 permeate.fExergy2
 
 Initializing ...
-errf = 201454 (>8.27606e-05)
+errf = 201454 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.982444 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.982444 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 50, a group with 1 elements
 
@@ -724,12 +724,12 @@ Group contains the following equations:
 feed.fs
 
 Initializing ...
-errf = 0.191252 (>8.27606e-05)
+errf = 0.191252 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.23648 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.23648 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 51, a group with 1 elements
 
@@ -740,12 +740,12 @@ Group contains the following equations:
 feed.fe
 
 Initializing ...
-errf = 40236.1 (>8.27606e-05)
+errf = 40236.1 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999975 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999975 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 52, a group with 1 elements
 
@@ -756,12 +756,12 @@ Group contains the following equations:
 feed.flhv
 
 Initializing ...
-errf = 5357.92 (>8.27606e-05)
+errf = 5357.92 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999813 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999813 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 53, a group with 1 elements
 
@@ -772,12 +772,12 @@ Group contains the following equations:
 feed.fhhv
 
 Initializing ...
-errf = 7643.8 (>8.27606e-05)
+errf = 7643.8 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999869 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999869 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 54, a group with 1 elements
 
@@ -788,7 +788,7 @@ Group contains the following equations:
 feed.fvolflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 55, a group with 1 elements
 
@@ -799,12 +799,12 @@ Group contains the following equations:
 feed.fEnergy2
 
 Initializing ...
-errf = 5.5356e+06 (>8.27606e-05)
+errf = 5.5356e+06 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.99935 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.99935 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 56, a group with 1 elements
 
@@ -815,12 +815,12 @@ Group contains the following equations:
 feed.fExergy2
 
 Initializing ...
-errf = 7.67969e+06 (>8.27606e-05)
+errf = 7.67969e+06 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999531 (>8.27606e-05)
-Group converged with errf= 9.31323e-10 (<=8.27606e-05)
+errx = 0.999531 (>8.30455e-05)
+Group converged with errf= 9.31323e-10 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 57, a group with 1 elements
 
@@ -831,12 +831,12 @@ Group contains the following equations:
 u_pump_o_001.f2h
 
 Initializing ...
-errf = 2547.37 (>8.27606e-05)
+errf = 2547.37 (>8.30455e-05)
 
 
 1. iteration step
-errx = 2.42 (>8.27606e-05)
-Group converged with errf= 2.27374e-13 (<=8.27606e-05)
+errx = 2.42 (>8.30455e-05)
+Group converged with errf= 2.27374e-13 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 58, a group with 1 elements
 
@@ -847,12 +847,12 @@ Group contains the following equations:
 feed_pressurized.fs
 
 Initializing ...
-errf = 0.186916 (>8.27606e-05)
+errf = 0.186916 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.229885 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.229885 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 59, a group with 1 elements
 
@@ -863,12 +863,12 @@ Group contains the following equations:
 feed_pressurized.fe
 
 Initializing ...
-errf = 40235 (>8.27606e-05)
+errf = 40235 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999975 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999975 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 60, a group with 1 elements
 
@@ -879,12 +879,12 @@ Group contains the following equations:
 feed_pressurized.flhv
 
 Initializing ...
-errf = 5357.92 (>8.27606e-05)
+errf = 5357.92 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999813 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999813 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 61, a group with 1 elements
 
@@ -895,12 +895,12 @@ Group contains the following equations:
 feed_pressurized.fhhv
 
 Initializing ...
-errf = 7643.8 (>8.27606e-05)
+errf = 7643.8 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999869 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.999869 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 62, a group with 1 elements
 
@@ -911,7 +911,7 @@ Group contains the following equations:
 feed_pressurized.fvolflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 63, a group with 1 elements
 
@@ -922,12 +922,12 @@ Group contains the following equations:
 feed_pressurized.fEnergy2
 
 Initializing ...
-errf = 5.53655e+06 (>8.27606e-05)
+errf = 5.53655e+06 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.99935 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.99935 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 64, a group with 1 elements
 
@@ -938,12 +938,12 @@ Group contains the following equations:
 feed_pressurized.fExergy2
 
 Initializing ...
-errf = 7.68021e+06 (>8.27606e-05)
+errf = 7.68021e+06 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.999531 (>8.27606e-05)
-Group converged with errf= 9.31323e-10 (<=8.27606e-05)
+errx = 0.999531 (>8.30455e-05)
+Group converged with errf= 9.31323e-10 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 65, a group with 1 elements
 
@@ -954,7 +954,7 @@ Group contains the following equations:
 u_sink_o_002.fmassflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 66, a group with 1 elements
 
@@ -965,7 +965,7 @@ Group contains the following equations:
 u_sink_o_002.fvolflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 67, a group with 1 elements
 
@@ -976,7 +976,7 @@ Group contains the following equations:
 u_sink_o_002.fp
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 68, a group with 1 elements
 
@@ -987,12 +987,12 @@ Group contains the following equations:
 u_sink_o_002.ft
 
 Initializing ...
-errf = 0.0902861 (>8.27606e-05)
+errf = 0.0902861 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.00200234 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.00200234 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 69, a group with 1 elements
 
@@ -1003,7 +1003,7 @@ Group contains the following equations:
 u_sink_o_001.fmassflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 70, a group with 1 elements
 
@@ -1014,7 +1014,7 @@ Group contains the following equations:
 u_sink_o_001.fvolflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 71, a group with 1 elements
 
@@ -1025,7 +1025,7 @@ Group contains the following equations:
 u_sink_o_001.fp
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 72, a group with 1 elements
 
@@ -1036,12 +1036,12 @@ Group contains the following equations:
 u_sink_o_001.ft
 
 Initializing ...
-errf = 0.0902861 (>8.27606e-05)
+errf = 0.0902861 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.00200234 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.00200234 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 73, a group with 1 elements
 
@@ -1052,7 +1052,7 @@ Group contains the following equations:
 u_source_o_001.fvolflow
 
 Initializing ...
-Group converged with errf= 0 (<=8.27606e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 74, a group with 1 elements
 
@@ -1063,12 +1063,12 @@ Group contains the following equations:
 u_mot_el_001.f1b
 
 Initializing ...
-errf = 0.00133766 (>8.27606e-05)
+errf = 0.00133766 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.0045748 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.0045748 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 75, a group with 1 elements
 
@@ -1079,12 +1079,12 @@ Group contains the following equations:
 u_mot_el_001.f_E_loss_b
 
 Initializing ...
-errf = 0.991019 (>8.27606e-05)
+errf = 0.991019 (>8.30455e-05)
 
 
 1. iteration step
-errx = 110.345 (>8.27606e-05)
-Group converged with errf= 1.11022e-16 (<=8.27606e-05)
+errx = 110.345 (>8.30455e-05)
+Group converged with errf= 1.11022e-16 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 76, a group with 1 elements
 
@@ -1095,12 +1095,12 @@ Group contains the following equations:
 u_pump_o_001.f2_E_loss
 
 Initializing ...
-errf = 0.853686 (>8.27606e-05)
+errf = 0.853686 (>8.30455e-05)
 
 
 1. iteration step
-errx = 5.83459 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 5.83459 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 77, a group with 1 elements
 
@@ -1111,12 +1111,12 @@ Group contains the following equations:
 u_membrane001.fenergy1
 
 Initializing ...
-errf = 35811.3 (>8.27606e-05)
+errf = 14911.3 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.908656 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.805524 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 78, a group with 1 elements
 
@@ -1127,12 +1127,12 @@ Group contains the following equations:
 u_membrane001.area1
 
 Initializing ...
-errf = 10.1111 (>8.27606e-05)
+errf = 10.1111 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.91 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.91 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 79, a group with 1 elements
 
@@ -1143,12 +1143,12 @@ Group contains the following equations:
 u_membrane001.area2
 
 Initializing ...
-errf = 3.24e+07 (>8.27606e-05)
+errf = 3.24e+07 (>8.30455e-05)
 
 
 1. iteration step
-errx = 999.999 (>8.27606e-05)
-Group converged with errf= 2.94804e-10 (<=8.27606e-05)
+errx = 999.999 (>8.30455e-05)
+Group converged with errf= 2.94804e-10 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 80, a group with 1 elements
 
@@ -1159,12 +1159,12 @@ Group contains the following equations:
 u_membrane001.fdrym1
 
 Initializing ...
-errf = 0.63 (>8.27606e-05)
+errf = 0.63 (>8.30455e-05)
 
 
 1. iteration step
-errx = 1.7027 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 1.7027 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 81, a group with 1 elements
 
@@ -1175,12 +1175,12 @@ Group contains the following equations:
 u_membrane001.retcof1
 
 Initializing ...
-errf = 0.027027 (>8.27606e-05)
+errf = 0.027027 (>8.30455e-05)
 
 
 1. iteration step
-errx = 0.0277778 (>8.27606e-05)
-Group converged with errf= 0 (<=8.27606e-05)
+errx = 0.0277778 (>8.30455e-05)
+Group converged with errf= 0 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 82, a group with 1 elements
 
@@ -1191,12 +1191,12 @@ Group contains the following equations:
 u_membrane001.enrfac1
 
 Initializing ...
-errf = 0.945 (>8.27606e-05)
+errf = 0.945 (>8.30455e-05)
 
 
 1. iteration step
-errx = 17.1818 (>8.27606e-05)
-Group converged with errf= 1.38778e-17 (<=8.27606e-05)
+errx = 17.1818 (>8.30455e-05)
+Group converged with errf= 1.38778e-17 (<=8.30455e-05)
 --------------------------------------------------
 Solving group 83, a group with 1 elements
 
@@ -1207,12 +1207,12 @@ Group contains the following equations:
 u_membrane001.sepfac1
 
 Initializing ...
-errf = 0.955511 (>8.27606e-05)
+errf = 0.955511 (>8.30455e-05)
 
 
 1. iteration step
-errx = 21.4773 (>8.27606e-05)
-Group converged with errf= 6.93889e-18 (<=8.27606e-05)
+errx = 21.4773 (>8.30455e-05)
+Group converged with errf= 6.93889e-18 (<=8.30455e-05)
 
 ========================================================================
 System solution finished.
@@ -1356,25 +1356,24 @@ x[132]   <u_membrane001.dp_permeate>      =          9  set
 x[133]   <u_membrane001.dp_retentate>     =          2  set
 x[134]   <u_membrane001.dT_permeate>      =          5  set
 x[135]   <u_membrane001.dT_retentate>     =          5  set
-x[136]   <u_membrane001.cp_org>           =       4.18  set
-x[137]   <u_membrane001.yield>            =        0.5  set
-x[138]   <u_membrane001.Q_loss>           =     10.948  converged
-x[139]   <u_membrane001.flux>             =         45  set
-x[140]   <u_membrane001.membrane_area>    =     11.111  converged
-x[141]   <u_membrane001.membrane_constant> = 1.3889e-06  converged
-x[142]   <u_membrane001.drymatter_permeate> =       0.01  set
-x[143]   <u_membrane001.drymatter_retentate> =       0.37  converged
-x[144]   <u_membrane001.retention_coefficient> =    0.97297  converged
-x[145]   <u_membrane001.enrichment_factor> =      0.055  converged
-x[146]   <u_membrane001.separation_factor> =   0.044489  converged
+x[136]   <u_membrane001.yield>            =        0.5  set
+x[137]   <u_membrane001.Q_loss>           =      5.142  converged
+x[138]   <u_membrane001.flux>             =         45  set
+x[139]   <u_membrane001.membrane_area>    =     11.111  converged
+x[140]   <u_membrane001.membrane_constant> = 1.3889e-06  converged
+x[141]   <u_membrane001.drymatter_permeate> =       0.01  set
+x[142]   <u_membrane001.drymatter_retentate> =       0.37  converged
+x[143]   <u_membrane001.retention_coefficient> =    0.97297  converged
+x[144]   <u_membrane001.enrichment_factor> =      0.055  converged
+x[145]   <u_membrane001.separation_factor> =   0.044489  converged
 
 ========================================================================
 Solution
-Start:	Jun 04 2024, 11:50:42.436
-End:  	Jun 04 2024, 11:50:42.609
-Actual Time:	0.173000 seconds
+Start:	Jul 09 2024, 19:56:03.454
+End:  	Jul 09 2024, 19:56:04.056
+Actual Time:	0.602000 seconds
 CPU Time:   	0.156000 seconds
-CPU Percentage:	22%
+CPU Percentage:	6%
 0 errors (0 recovered errors)
 0 warnings (0 recovered warnings)
 ========================================================================
