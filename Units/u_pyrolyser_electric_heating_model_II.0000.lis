@@ -1,0 +1,1632 @@
+========================================================================
+||
+||     PSStat - Static Solver
+||     Version 8.0 U, Release 17, Build 2459, Aug 18 2023 08:49:32 
+||
+========================================================================
+
+Loading system ...
+
+System has been loaded successfully.
+System analysis ...
+========================================================================
+System model contains 335 variables
+104 variables set to fixed values
+System to be solved contains 231 variables and 231 equations
+94 groups found. Largest group contains 138 variables.
+========================================================================
+System analysis finished.
+
+
+Starting system solution .... 
+========================================================================
+--------------------------------------------------
+Solving group 1, a group with 1 elements
+
+Group contains the following variables:
+ASH_Feed.wAsh
+
+Group contains the following equations:
+ASH_Feed.fmass
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 2, a group with 1 elements
+
+Group contains the following variables:
+TAR.SubstNr
+
+Group contains the following equations:
+TAR.fSubstNr10
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 3, a group with 1 elements
+
+Group contains the following variables:
+TAR.wC
+
+Group contains the following equations:
+TAR.fmass_sum
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 4, a group with 1 elements
+
+Group contains the following variables:
+TAR.lhv
+
+Group contains the following equations:
+TAR.flhv_tar
+
+Initializing ...
+errf = 0.5 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 1.29906e-05 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 5, a group with 1 elements
+
+Group contains the following variables:
+TAR.hf298
+
+Group contains the following equations:
+TAR.fhf1
+
+Initializing ...
+errf = 0.00997286 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 5.16886e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 6, a group with 1 elements
+
+Group contains the following variables:
+CHAR.SubstNr
+
+Group contains the following equations:
+CHAR.fSubstNr1
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 7, a group with 1 elements
+
+Group contains the following variables:
+CHAR.wC
+
+Group contains the following equations:
+CHAR.fmass_sum
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 8, a group with 1 elements
+
+Group contains the following variables:
+CHAR.lhv
+
+Group contains the following equations:
+CHAR.flhv_boie
+
+Initializing ...
+errf = 0.225 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 6.72872e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 9, a group with 1 elements
+
+Group contains the following variables:
+CHAR.hf298
+
+Group contains the following equations:
+CHAR.fhf1
+
+Initializing ...
+errf = 0.0400378 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 3.97808e-05 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 10, a group with 1 elements
+
+Group contains the following variables:
+N2.yN2
+
+Group contains the following equations:
+N2.fmolsum
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 11, a group with 1 elements
+
+Group contains the following variables:
+N2.M
+
+Group contains the following equations:
+N2.fM
+
+Initializing ...
+errf = 0.00048 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 1.71346e-05 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 12, a group with 1 elements
+
+Group contains the following variables:
+N2.wC2H4
+
+Group contains the following equations:
+N2.fC2H4
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 13, a group with 1 elements
+
+Group contains the following variables:
+N2.wC2H6
+
+Group contains the following equations:
+N2.fC2H6
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 14, a group with 1 elements
+
+Group contains the following variables:
+N2.wC3H8
+
+Group contains the following equations:
+N2.fC3H8
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 15, a group with 1 elements
+
+Group contains the following variables:
+N2.wCH4
+
+Group contains the following equations:
+N2.fCH4
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 16, a group with 1 elements
+
+Group contains the following variables:
+N2.wCO
+
+Group contains the following equations:
+N2.fCO
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 17, a group with 1 elements
+
+Group contains the following variables:
+N2.wCO2
+
+Group contains the following equations:
+N2.fCO2
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 18, a group with 1 elements
+
+Group contains the following variables:
+N2.wHCN
+
+Group contains the following equations:
+N2.fHCN
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 19, a group with 1 elements
+
+Group contains the following variables:
+WOOD.wC
+
+Group contains the following equations:
+WOOD.fmass_sum
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 20, a group with 1 elements
+
+Group contains the following variables:
+N2.wH2O
+
+Group contains the following equations:
+N2.fH2O
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 21, a group with 1 elements
+
+Group contains the following variables:
+N2.wN2O
+
+Group contains the following equations:
+N2.fN2O
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 22, a group with 1 elements
+
+Group contains the following variables:
+N2.wNO
+
+Group contains the following equations:
+N2.fNO
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 23, a group with 1 elements
+
+Group contains the following variables:
+N2.wO2
+
+Group contains the following equations:
+N2.fO2
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 24, a group with 1 elements
+
+Group contains the following variables:
+N2.wSO2
+
+Group contains the following equations:
+N2.fSO2
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 25, a group with 1 elements
+
+Group contains the following variables:
+N2.wAr
+
+Group contains the following equations:
+N2.fAr
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 26, a group with 1 elements
+
+Group contains the following variables:
+N2.wH2
+
+Group contains the following equations:
+N2.fH2
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 27, a group with 1 elements
+
+Group contains the following variables:
+N2.wH2S
+
+Group contains the following equations:
+N2.fH2S
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 28, a group with 1 elements
+
+Group contains the following variables:
+N2.wHCl
+
+Group contains the following equations:
+N2.fHCl
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 29, a group with 1 elements
+
+Group contains the following variables:
+N2.wNH3
+
+Group contains the following equations:
+N2.fNH3
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 30, a group with 1 elements
+
+Group contains the following variables:
+N2.wN2
+
+Group contains the following equations:
+N2.fN2
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 31, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_002.p
+
+Group contains the following equations:
+u_pyrolyser_elc_heat001.fdp_feed_org
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 32, a group with 1 elements
+
+Group contains the following variables:
+CHAR.hhv
+
+Group contains the following equations:
+CHAR.fhhv
+
+Initializing ...
+errf = 0.2052 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 6.07708e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 33, a group with 1 elements
+
+Group contains the following variables:
+CHAR.e_chem
+
+Group contains the following equations:
+CHAR.fe_chem
+
+Initializing ...
+errf = 0.2052 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 6.07708e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 34, a group with 1 elements
+
+Group contains the following variables:
+c_st_o_002.p
+
+Group contains the following equations:
+u_pyrolyser_elc_heat001.fdp_drain_gas_char
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 35, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.h
+
+Group contains the following equations:
+c_st_g_001.fh
+
+Initializing ...
+errf = 0.000252324 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 9.71029e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 36, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.s
+
+Group contains the following equations:
+c_st_g_001.fs
+
+Initializing ...
+Group converged with errf= 7.50939e-07 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 37, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.e
+
+Group contains the following equations:
+c_st_g_001.fe
+
+Initializing ...
+errf = 0.000219386 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 6.37532e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 38, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.dust_content
+
+Group contains the following equations:
+c_st_g_001.fno_dust
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 39, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.char_content
+
+Group contains the following equations:
+c_st_g_001.fno_char
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 40, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.tar_content
+
+Group contains the following equations:
+c_st_g_001.fno_tar
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 41, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.e_dust
+
+Group contains the following equations:
+c_st_g_001.fe_no_dust
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 42, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.e_char
+
+Group contains the following equations:
+c_st_g_001.fe_no_char
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 43, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.e_tar
+
+Group contains the following equations:
+c_st_g_001.fe_no_tar
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 44, a group with 1 elements
+
+Group contains the following variables:
+WOOD.SubstNr
+
+Group contains the following equations:
+WOOD.fSubstNr1
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 45, a group with 1 elements
+
+Group contains the following variables:
+WOOD.lhv
+
+Group contains the following equations:
+WOOD.flhv_boie
+
+Initializing ...
+errf = 0.05 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 2.66609e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 46, a group with 1 elements
+
+Group contains the following variables:
+WOOD.hhv
+
+Group contains the following equations:
+WOOD.fhhv
+
+Initializing ...
+errf = 0.2292 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 1.14236e-05 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 47, a group with 1 elements
+
+Group contains the following variables:
+WOOD.e_chem
+
+Group contains the following equations:
+WOOD.fe_chem
+
+Initializing ...
+errf = 0.2292 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 1.14236e-05 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 48, a group with 1 elements
+
+Group contains the following variables:
+c_st_o_001.h_waf
+
+Group contains the following equations:
+c_st_o_001.fh
+
+Initializing ...
+errf = 0.000180143 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 6.65181e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 49, a group with 1 elements
+
+Group contains the following variables:
+c_st_o_001.s_waf
+
+Group contains the following equations:
+c_st_o_001.fs
+
+Initializing ...
+Group converged with errf= 0 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 50, a group with 1 elements
+
+Group contains the following variables:
+c_st_o_001.Exergy
+
+Group contains the following equations:
+c_st_o_001.fExergy2
+
+Initializing ...
+errf = 0.473618 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 8.72657e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 51, a group with 1 elements
+
+Group contains the following variables:
+TAR.e_chem
+
+Group contains the following equations:
+TAR.fe_chem_tar
+
+Initializing ...
+errf = 0.5 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 1.23973e-05 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 52, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.h_total
+
+Group contains the following equations:
+c_st_g_001.fh_total1
+
+Initializing ...
+Group converged with errf= 2.10361e-10 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 53, a group with 1 elements
+
+Group contains the following variables:
+WOOD.hf298
+
+Group contains the following equations:
+WOOD.fhf1
+
+Initializing ...
+errf = 0.0393577 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 7.63865e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 54, a group with 1 elements
+
+Group contains the following variables:
+c_st_o_001.h_total
+
+Group contains the following equations:
+c_st_o_001.fh_total2
+
+Initializing ...
+errf = 0.0265387 (>5.46358e-05)
+
+
+1. iteration step
+Group converged with errx= 4.30154e-06 (<=5.46358e-05)
+--------------------------------------------------
+Solving group 55, a group with 138 elements
+
+Group contains the following variables:
+c_st_o_002.h_total	c_st_g_002.h_total	c_st_g_002.s_tar	c_st_g_002.h_tar
+c_st_g_002.e_tar	c_st_g_002.s_char	c_st_g_002.h_char	c_st_g_002.e_char
+c_st_g_002.s_dust	c_st_g_002.h_dust	c_st_g_002.e_dust	c_st_g_001.nvolflow
+c_st_g_001.Exergy	c_st_o_002.s_waf	c_st_o_002.h_waf	c_st_o_002.t
+ASH_CHAR.wZrO2	ASH_CHAR.wZnS	ASH_CHAR.wZnO	ASH_CHAR.wTiO2
+ASH_CHAR.wSiO2	ASH_CHAR.wNiAl2O4	ASH_CHAR.wNiO	ASH_CHAR.wNi
+ASH_CHAR.wNa2O	ASH_CHAR.wNaCl	ASH_CHAR.wMnO2	ASH_CHAR.wMn2O3
+ASH_CHAR.wMn3O4	ASH_CHAR.wMnO	ASH_CHAR.wMn	ASH_CHAR.wMg2SiO4
+ASH_CHAR.wMgO	ASH_CHAR.wMgCO3	ASH_CHAR.wMgAl2O4	ASH_CHAR.wK2O
+ASH_CHAR.wFe2SiO4	ASH_CHAR.wFe2O3	ASH_CHAR.wFe3O4	ASH_CHAR.wFeO
+ASH_CHAR.wFe	ASH_CHAR.wCuS	ASH_CHAR.wCuAl2O4	ASH_CHAR.wCuO
+ASH_CHAR.wCu2O	ASH_CHAR.wCu	ASH_CHAR.wCoO	ASH_CHAR.wCo
+ASH_CHAR.wCaSO4	ASH_CHAR.wCaS	ASH_CHAR.wCaOH2	ASH_CHAR.wCaO
+ASH_CHAR.wCaCO3	ASH_CHAR.wCaCl2	ASH_CHAR.wCaAl2O4	c_st_o_002.Exergy
+c_st_g_002.Exergy	c_st_g_002.e	c_st_g_002.t	c_st_g_002.s
+c_st_g_002.h	SYNGAS.wO2	SYNGAS.wSO2	SYNGAS.ySO2
+SYNGAS.yO2	SYNGAS.wNO	SYNGAS.wN2	SYNGAS.yN2
+SYNGAS.yHCl	SYNGAS.wNH3	SYNGAS.wHCl	SYNGAS.wH2S
+SYNGAS.wH2	SYNGAS.yH2	SYNGAS.wAr	SYNGAS.yAr
+SYNGAS.yN2O	SYNGAS.wN2O	SYNGAS.wH2O	c_st_g_001.massflow
+c_st_o_002.massflow	c_st_o_002.ash_content	c_st_g_002.massflow	c_st_g_002.tar_content
+c_st_g_002.char_content	SYNGAS.wHCN	SYNGAS.wCO2	SYNGAS.wCO
+SYNGAS.wCH4	SYNGAS.wC3H8	SYNGAS.wC2H6	SYNGAS.wC2H4
+SYNGAS.M	ASH_DUST.wZrO2	ASH_DUST.wZnS	ASH_DUST.wZnO
+ASH_DUST.wTiO2	ASH_DUST.wSiO2	ASH_DUST.wNiAl2O4	ASH_DUST.wNiO
+ASH_DUST.wNi	ASH_DUST.wNa2O	ASH_DUST.wNaCl	ASH_DUST.wMnO2
+ASH_DUST.wMn2O3	ASH_DUST.wMn3O4	ASH_DUST.wMnO	ASH_DUST.wMn
+ASH_DUST.wMg2SiO4	ASH_DUST.wMgO	ASH_DUST.wMgCO3	ASH_DUST.wMgAl2O4
+ASH_DUST.wK2O	ASH_DUST.wFe2SiO4	ASH_DUST.wFe2O3	ASH_DUST.wFe3O4
+ASH_DUST.wFeO	ASH_DUST.wFe	ASH_DUST.wCuS	ASH_DUST.wCuAl2O4
+ASH_DUST.wCuO	ASH_DUST.wCu2O	ASH_DUST.wCu	ASH_DUST.wCoO
+ASH_DUST.wCo	ASH_DUST.wCaSO4	ASH_DUST.wCaS	ASH_DUST.wCaOH2
+ASH_DUST.wCaO	ASH_DUST.wCaCO3	ASH_DUST.wCaCl2	c_st_g_002.nvolflow
+c_st_g_002.dust_content	ASH_DUST.wCaAl2O4	ASH_DUST.wAsh	ASH_DUST.wAl2O3
+ASH_CHAR.wAl2O3	ASH_CHAR.wAsh
+
+Group contains the following equations:
+c_st_o_002.fh_total2	u_pyrolyser_elc_heat001.fh_total	c_st_g_002.fs_tar	c_st_g_002.fh_tar
+c_st_g_002.fe_tar	c_st_g_002.fs_char	c_st_g_002.fh_char	c_st_g_002.fe_char
+c_st_g_002.fs_dust	c_st_g_002.fh_dust	c_st_g_002.fe_dust	c_st_g_001.fnvolflow
+c_st_g_001.fExergy	c_st_o_002.fs	c_st_o_002.fh	u_pyrolyser_elc_heat001.fdt_drain_gas_char
+u_pyrolyser_elc_heat001.fZrO2	u_pyrolyser_elc_heat001.fZnS	u_pyrolyser_elc_heat001.fZnO	u_pyrolyser_elc_heat001.fTiO2
+u_pyrolyser_elc_heat001.fSiO2	u_pyrolyser_elc_heat001.fNiAl2O4	u_pyrolyser_elc_heat001.fNiO	u_pyrolyser_elc_heat001.fNi
+u_pyrolyser_elc_heat001.fNa2O	u_pyrolyser_elc_heat001.fNaCl	u_pyrolyser_elc_heat001.fMnO2	u_pyrolyser_elc_heat001.fMn2O3
+u_pyrolyser_elc_heat001.fMn3O4	u_pyrolyser_elc_heat001.fMnO	u_pyrolyser_elc_heat001.fMn	u_pyrolyser_elc_heat001.fMg2SiO4
+u_pyrolyser_elc_heat001.fMgO	u_pyrolyser_elc_heat001.fMgCO3	u_pyrolyser_elc_heat001.fMgAl2O4	u_pyrolyser_elc_heat001.fK2O
+u_pyrolyser_elc_heat001.fFe2SiO4	u_pyrolyser_elc_heat001.fFe2O3	u_pyrolyser_elc_heat001.fFe3O4	u_pyrolyser_elc_heat001.fFeO
+u_pyrolyser_elc_heat001.fFe	u_pyrolyser_elc_heat001.fCuS	u_pyrolyser_elc_heat001.fCuAl2O4	u_pyrolyser_elc_heat001.fCuO
+u_pyrolyser_elc_heat001.fCu2O	u_pyrolyser_elc_heat001.fCu	u_pyrolyser_elc_heat001.fCoO	u_pyrolyser_elc_heat001.fCo
+u_pyrolyser_elc_heat001.fCaSO4	u_pyrolyser_elc_heat001.fCaS	u_pyrolyser_elc_heat001.fCaOH2	u_pyrolyser_elc_heat001.fCaO
+u_pyrolyser_elc_heat001.fCaCO3	u_pyrolyser_elc_heat001.fCaCl2	u_pyrolyser_elc_heat001.fCaAl2O4	c_st_o_002.fExergy2
+u_pyrolyser_elc_heat001.fE_loss	c_st_g_002.fExergy	c_st_g_002.fh	c_st_g_002.fs
+c_st_g_002.fe	SYNGAS.fO2	u_pyrolyser_elc_heat001.fS	SYNGAS.fSO2
+SYNGAS.fmolsum	SYNGAS.fNO	u_pyrolyser_elc_heat001.fN	SYNGAS.fN2
+SYNGAS.fHCl	SYNGAS.fNH3	u_pyrolyser_elc_heat001.fCl	SYNGAS.fH2S
+u_pyrolyser_elc_heat001.fH	SYNGAS.fH2	u_pyrolyser_elc_heat001.fAr	SYNGAS.fAr
+SYNGAS.fM	SYNGAS.fN2O	SYNGAS.fH2O	u_pyrolyser_elc_heat001.fO
+u_pyrolyser_elc_heat001.ffract_char_bed	u_pyrolyser_elc_heat001.fAsh	c_st_g_002.fnvolflow	u_pyrolyser_elc_heat001.ffract_tar_pg
+u_pyrolyser_elc_heat001.ffract_char_pg	SYNGAS.fHCN	SYNGAS.fCO2	SYNGAS.fCO
+SYNGAS.fCH4	SYNGAS.fC3H8	SYNGAS.fC2H6	u_pyrolyser_elc_heat001.fC
+SYNGAS.fC2H4	u_pyrolyser_elc_heat001.fdust_ZrO2	u_pyrolyser_elc_heat001.fdust_ZnS	u_pyrolyser_elc_heat001.fdust_ZnO
+u_pyrolyser_elc_heat001.fdust_TiO2	u_pyrolyser_elc_heat001.fdust_SiO2	u_pyrolyser_elc_heat001.fdust_NiAl2O4	u_pyrolyser_elc_heat001.fdust_NiO
+u_pyrolyser_elc_heat001.fdust_Ni	u_pyrolyser_elc_heat001.fdust_Na2O	u_pyrolyser_elc_heat001.fdust_NaCl	u_pyrolyser_elc_heat001.fdust_MnO2
+u_pyrolyser_elc_heat001.fdust_Mn2O3	u_pyrolyser_elc_heat001.fdust_Mn3O4	u_pyrolyser_elc_heat001.fdust_MnO	u_pyrolyser_elc_heat001.fdust_Mn
+u_pyrolyser_elc_heat001.fdust_Mg2SiO4	u_pyrolyser_elc_heat001.fdust_MgO	u_pyrolyser_elc_heat001.fdust_MgCO3	u_pyrolyser_elc_heat001.fdust_MgAl2O4
+u_pyrolyser_elc_heat001.fdust_K2O	u_pyrolyser_elc_heat001.fdust_Fe2SiO4	u_pyrolyser_elc_heat001.fdust_Fe2O3	u_pyrolyser_elc_heat001.fdust_Fe3O4
+u_pyrolyser_elc_heat001.fdust_FeO	u_pyrolyser_elc_heat001.fdust_Fe	u_pyrolyser_elc_heat001.fdust_CuS	u_pyrolyser_elc_heat001.fdust_CuAl2O4
+u_pyrolyser_elc_heat001.fdust_CuO	u_pyrolyser_elc_heat001.fdust_Cu2O	u_pyrolyser_elc_heat001.fdust_Cu	u_pyrolyser_elc_heat001.fdust_CoO
+u_pyrolyser_elc_heat001.fdust_Co	u_pyrolyser_elc_heat001.fdust_CaSO4	u_pyrolyser_elc_heat001.fdust_CaS	u_pyrolyser_elc_heat001.fdust_CaOH2
+u_pyrolyser_elc_heat001.fdust_CaO	u_pyrolyser_elc_heat001.fdust_CaCO3	u_pyrolyser_elc_heat001.fdust_CaCl2	u_pyrolyser_elc_heat001.fdust_Ash
+u_pyrolyser_elc_heat001.fdust_Al2O3	u_pyrolyser_elc_heat001.fdust_CaAl2O4	c_st_g_002.fh_total8	ASH_DUST.fmass
+u_pyrolyser_elc_heat001.fAl2O3	ASH_CHAR.fmass
+
+Initializing ...
+errf = 458766 (>0.000641826)
+
+
+1. iteration step
+errx = 8.29651 (>0.000641826)
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_tar":
+" ofst: entropy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_tar":
+" ofht: enthalpy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_char":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_char":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fs":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fh":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh":
+"gfht: Enthalpy calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs":
+" gfspt: entropy calculated outside valid temperature range - value therefore not sure"
+
+errf = 3.72062e+13 (>0.000641826)
+
+
+2. iteration step
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_tar)/d(t)":
+" dofst_dt: derivative of tar entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_char)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_tar)/d(t)":
+" dofht_dt: heat capacity of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_char)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs)/d(t)":
+" dgfspt_dt: derivative of entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh)/d(t)":
+"dgfht_dt: Specific heat capacity calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fs)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fh)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+errx = 88.9667 (>0.000641826)
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_tar":
+" ofst: entropy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_tar":
+" ofht: enthalpy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_char":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_char":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fs":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fh":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh":
+"gfht: Enthalpy calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs":
+" gfspt: entropy calculated outside valid temperature range - value therefore not sure"
+
+errf = 3.87192e+12 (>0.000641826)
+
+
+3. iteration step
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_tar)/d(t)":
+" dofst_dt: derivative of tar entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_char)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_tar)/d(t)":
+" dofht_dt: heat capacity of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_char)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs)/d(t)":
+" dgfspt_dt: derivative of entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh)/d(t)":
+"dgfht_dt: Specific heat capacity calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fs)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fh)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+errx = 9.99989 (>0.000641826)
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_tar":
+" ofst: entropy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_tar":
+" ofht: enthalpy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_char":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_char":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fs":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fh":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh":
+"gfht: Enthalpy calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs":
+" gfspt: entropy calculated outside valid temperature range - value therefore not sure"
+
+errf = 8.7842e+11 (>0.000641826)
+
+
+4. iteration step
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_tar)/d(t)":
+" dofst_dt: derivative of tar entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_char)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_tar)/d(t)":
+" dofht_dt: heat capacity of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_char)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs)/d(t)":
+" dgfspt_dt: derivative of entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh)/d(t)":
+"dgfht_dt: Specific heat capacity calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fs)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fh)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+errx = 78.9344 (>0.000641826)
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_tar":
+" ofst: entropy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_tar":
+" ofht: enthalpy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_char":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_char":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fs":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fh":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh":
+"gfht: Enthalpy calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs":
+" gfspt: entropy calculated outside valid temperature range - value therefore not sure"
+
+errf = 7.32568e+10 (>0.000641826)
+
+
+5. iteration step
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_tar)/d(t)":
+" dofst_dt: derivative of tar entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_char)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_tar)/d(t)":
+" dofht_dt: heat capacity of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_char)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs)/d(t)":
+" dgfspt_dt: derivative of entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh)/d(t)":
+"dgfht_dt: Specific heat capacity calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fs)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fh)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+errx = 1029.79 (>0.000641826)
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_tar":
+" ofst: entropy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_tar":
+" ofht: enthalpy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_char":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_char":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fs":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fh":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh":
+"gfht: Enthalpy calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs":
+" gfspt: entropy calculated outside valid temperature range - value therefore not sure"
+
+errf = 2.45938e+11 (>0.000641826)
+
+
+6. iteration step
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_tar)/d(t)":
+" dofst_dt: derivative of tar entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_char)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_tar)/d(t)":
+" dofht_dt: heat capacity of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_char)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs)/d(t)":
+" dgfspt_dt: derivative of entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh)/d(t)":
+"dgfht_dt: Specific heat capacity calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fs)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fh)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+errx = 60.7056 (>0.000641826)
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_tar":
+" ofst: entropy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_tar":
+" ofht: enthalpy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_char":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_char":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fs":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fh":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh":
+"gfht: Enthalpy calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs":
+" gfspt: entropy calculated outside valid temperature range - value therefore not sure"
+
+errf = 1.85725e+10 (>0.000641826)
+
+
+7. iteration step
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_tar)/d(t)":
+" dofst_dt: derivative of tar entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_char)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_tar)/d(t)":
+" dofht_dt: heat capacity of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_char)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs)/d(t)":
+" dgfspt_dt: derivative of entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh)/d(t)":
+"dgfht_dt: Specific heat capacity calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fs)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fh)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+errx = 92.6257 (>0.000641826)
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_tar":
+" ofst: entropy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_tar":
+" ofht: enthalpy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_char":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_char":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fs":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fh":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh":
+"gfht: Enthalpy calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs":
+" gfspt: entropy calculated outside valid temperature range - value therefore not sure"
+
+errf = 1.95654e+09 (>0.000641826)
+
+
+8. iteration step
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_tar)/d(t)":
+" dofst_dt: derivative of tar entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_char)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_tar)/d(t)":
+" dofht_dt: heat capacity of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_char)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs)/d(t)":
+" dgfspt_dt: derivative of entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh)/d(t)":
+"dgfht_dt: Specific heat capacity calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fs)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fh)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+errx = 46.9962 (>0.000641826)
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_tar":
+" ofst: entropy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_tar":
+" ofht: enthalpy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_char":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_char":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fs":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fh":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh":
+"gfht: Enthalpy calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs":
+" gfspt: entropy calculated outside valid temperature range - value therefore not sure"
+
+errf = 1.09628e+10 (>0.000641826)
+
+
+9. iteration step
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_tar)/d(t)":
+" dofst_dt: derivative of tar entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_char)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_tar)/d(t)":
+" dofht_dt: heat capacity of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_char)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs)/d(t)":
+" dgfspt_dt: derivative of entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh)/d(t)":
+"dgfht_dt: Specific heat capacity calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fs)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fh)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+errx = 17.2954 (>0.000641826)
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_tar":
+" ofst: entropy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_tar":
+" ofht: enthalpy of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs_char":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh_char":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fs":
+" ofst: entropy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "fh":
+" ofht: enthalpy of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fh":
+"gfht: Enthalpy calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "fs":
+" gfspt: entropy calculated outside valid temperature range - value therefore not sure"
+
+errf = 4.78281e+09 (>0.000641826)
+
+
+10. iteration step
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_tar)/d(t)":
+" dofst_dt: derivative of tar entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs_char)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_tar)/d(t)":
+" dofht_dt: heat capacity of tar calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh_char)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fs)/d(t)":
+" dgfspt_dt: derivative of entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_g_ c_st_g_002: Warning from function "d(fh)/d(t)":
+"dgfht_dt: Specific heat capacity calculated outside valid temperature range - value extrapolated."
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fs)/d(t)":
+" dofst_dt: derivative of char entropy calculated outside valid temperature range - value therefore not sure"
+
+%Warning: c_st_o_ c_st_o_002: Warning from function "d(fh)/d(t)":
+" dofht_dt: heat capacity of char calculated outside valid temperature range - value therefore not sure"
+
+errx = 34.0411 (>0.000641826)
+%Error: Newton: Group not converged
+
+========================================================================
+System solution finished.
+
+
+%Warning: Test condition for g_cmp_gas_ SYNGAS not satisfied:
+tminAr:	"yAr < 0.0"
+
+%Warning: Test condition for g_cmp_gas_ SYNGAS not satisfied:
+tminHCl:	"yHCl < 0.0"
+
+%Warning: Test condition for g_cmp_gas_ SYNGAS not satisfied:
+tmaxN2:	"yN2 > 1.0"
+
+%Warning: Test condition for g_cmp_gas_ SYNGAS not satisfied:
+tminN2O:	"yN2O < 0.0"
+
+%Warning: Test condition for g_cmp_gas_ SYNGAS not satisfied:
+tmaxO2:	"yO2 > 1.0"
+
+%Warning: Test condition for g_cmp_gas_ SYNGAS not satisfied:
+tminSO2:	"ySO2 < 0.0"
+
+%Warning: Test condition for c_st_g_ c_st_g_002 not satisfied:
+tmassflow:	"Mass flow negative"
+
+%Error: Test condition for c_st_g_ c_st_g_002 not satisfied:
+tdust_content:	"Dust content negative"
+
+%Error: Test condition for c_st_g_ c_st_g_002 not satisfied:
+tchar_content:	"Char content negative"
+
+%Error: Test condition for c_st_g_ c_st_g_002 not satisfied:
+ttar_content:	"Tar content negative"
+
+%Warning: Test condition for c_st_g_ c_st_g_001 not satisfied:
+tmassflow:	"Mass flow negative"
+
+========================================================================
+Results:
+
+x[1]     <ASH_CHAR.wAsh>                  =          1  not converged
+x[2]     <ASH_CHAR.wAl2O3>                =          0  not converged
+x[3]     <ASH_CHAR.wCaAl2O4>              =          0  not converged
+x[4]     <ASH_CHAR.wCaCl2>                =          0  not converged
+x[5]     <ASH_CHAR.wCaCO3>                =          0  not converged
+x[6]     <ASH_CHAR.wCaO>                  = 4.1386e-17  not converged
+x[7]     <ASH_CHAR.wCaOH2>                =          0  not converged
+x[8]     <ASH_CHAR.wCaS>                  =          0  not converged
+x[9]     <ASH_CHAR.wCaSO4>                =          0  not converged
+x[10]    <ASH_CHAR.wCo>                   = 2.2028e-33  not converged
+x[11]    <ASH_CHAR.wCoO>                  =          0  not converged
+x[12]    <ASH_CHAR.wCu>                   =          0  not converged
+x[13]    <ASH_CHAR.wCu2O>                 =          0  not converged
+x[14]    <ASH_CHAR.wCuO>                  =          0  not converged
+x[15]    <ASH_CHAR.wCuAl2O4>              =          0  not converged
+x[16]    <ASH_CHAR.wCuS>                  =          0  not converged
+x[17]    <ASH_CHAR.wFe>                   =          0  not converged
+x[18]    <ASH_CHAR.wFeO>                  =          0  not converged
+x[19]    <ASH_CHAR.wFe3O4>                =          0  not converged
+x[20]    <ASH_CHAR.wFe2O3>                =          0  not converged
+x[21]    <ASH_CHAR.wFe2SiO4>              =          0  not converged
+x[22]    <ASH_CHAR.wK2O>                  =          0  not converged
+x[23]    <ASH_CHAR.wMgAl2O4>              =          0  not converged
+x[24]    <ASH_CHAR.wMgCO3>                =          0  not converged
+x[25]    <ASH_CHAR.wMgO>                  =          0  not converged
+x[26]    <ASH_CHAR.wMg2SiO4>              =          0  not converged
+x[27]    <ASH_CHAR.wMn>                   =          0  not converged
+x[28]    <ASH_CHAR.wMnO>                  =          0  not converged
+x[29]    <ASH_CHAR.wMn3O4>                =          0  not converged
+x[30]    <ASH_CHAR.wMn2O3>                =          0  not converged
+x[31]    <ASH_CHAR.wMnO2>                 =          0  not converged
+x[32]    <ASH_CHAR.wNaCl>                 =          0  not converged
+x[33]    <ASH_CHAR.wNa2O>                 =          0  not converged
+x[34]    <ASH_CHAR.wNi>                   =          0  not converged
+x[35]    <ASH_CHAR.wNiO>                  =          0  not converged
+x[36]    <ASH_CHAR.wNiAl2O4>              =          0  not converged
+x[37]    <ASH_CHAR.wSiO2>                 =          0  not converged
+x[38]    <ASH_CHAR.wTiO2>                 =          0  not converged
+x[39]    <ASH_CHAR.wZnO>                  = 3.0815e-33  not converged
+x[40]    <ASH_CHAR.wZnS>                  =          0  not converged
+x[41]    <ASH_CHAR.wZrO2>                 =          0  not converged
+x[42]    <ASH_CHAR.rho>                   =          1  not calculated
+x[43]    <ASH_Feed.wAsh>                  =          1  converged
+x[44]    <ASH_Feed.wAl2O3>                =          0  set
+x[45]    <ASH_Feed.wCaAl2O4>              =          0  set
+x[46]    <ASH_Feed.wCaCl2>                =          0  set
+x[47]    <ASH_Feed.wCaCO3>                =          0  set
+x[48]    <ASH_Feed.wCaO>                  =          0  set
+x[49]    <ASH_Feed.wCaOH2>                =          0  set
+x[50]    <ASH_Feed.wCaS>                  =          0  set
+x[51]    <ASH_Feed.wCaSO4>                =          0  set
+x[52]    <ASH_Feed.wCo>                   =          0  set
+x[53]    <ASH_Feed.wCoO>                  =          0  set
+x[54]    <ASH_Feed.wCu>                   =          0  set
+x[55]    <ASH_Feed.wCu2O>                 =          0  set
+x[56]    <ASH_Feed.wCuO>                  =          0  set
+x[57]    <ASH_Feed.wCuAl2O4>              =          0  set
+x[58]    <ASH_Feed.wCuS>                  =          0  set
+x[59]    <ASH_Feed.wFe>                   =          0  set
+x[60]    <ASH_Feed.wFeO>                  =          0  set
+x[61]    <ASH_Feed.wFe3O4>                =          0  set
+x[62]    <ASH_Feed.wFe2O3>                =          0  set
+x[63]    <ASH_Feed.wFe2SiO4>              =          0  set
+x[64]    <ASH_Feed.wK2O>                  =          0  set
+x[65]    <ASH_Feed.wMgAl2O4>              =          0  set
+x[66]    <ASH_Feed.wMgCO3>                =          0  set
+x[67]    <ASH_Feed.wMgO>                  =          0  set
+x[68]    <ASH_Feed.wMg2SiO4>              =          0  set
+x[69]    <ASH_Feed.wMn>                   =          0  set
+x[70]    <ASH_Feed.wMnO>                  =          0  set
+x[71]    <ASH_Feed.wMn3O4>                =          0  set
+x[72]    <ASH_Feed.wMn2O3>                =          0  set
+x[73]    <ASH_Feed.wMnO2>                 =          0  set
+x[74]    <ASH_Feed.wNaCl>                 =          0  set
+x[75]    <ASH_Feed.wNa2O>                 =          0  set
+x[76]    <ASH_Feed.wNi>                   =          0  set
+x[77]    <ASH_Feed.wNiO>                  =          0  set
+x[78]    <ASH_Feed.wNiAl2O4>              =          0  set
+x[79]    <ASH_Feed.wSiO2>                 =          0  set
+x[80]    <ASH_Feed.wTiO2>                 =          0  set
+x[81]    <ASH_Feed.wZnO>                  =          0  set
+x[82]    <ASH_Feed.wZnS>                  =          0  set
+x[83]    <ASH_Feed.wZrO2>                 =          0  set
+x[84]    <ASH_Feed.rho>                   =          1  not calculated
+x[85]    <N2.wAr>                         =          0  converged
+x[86]    <N2.wC2H4>                       =          0  converged
+x[87]    <N2.wC2H6>                       =          0  converged
+x[88]    <N2.wC3H8>                       =          0  converged
+x[89]    <N2.wCH4>                        =          0  converged
+x[90]    <N2.wCO>                         =          0  converged
+x[91]    <N2.wCO2>                        =          0  converged
+x[92]    <N2.wH2>                         =          0  converged
+x[93]    <N2.wH2O>                        =          0  converged
+x[94]    <N2.wH2S>                        =          0  converged
+x[95]    <N2.wHCl>                        =          0  converged
+x[96]    <N2.wHCN>                        =          0  converged
+x[97]    <N2.wN2>                         =          1  converged
+x[98]    <N2.wN2O>                        =          0  converged
+x[99]    <N2.wNH3>                        =          0  converged
+x[100]   <N2.wNO>                         =          0  converged
+x[101]   <N2.wO2>                         =          0  converged
+x[102]   <N2.wSO2>                        =          0  converged
+x[103]   <N2.yAr>                         =          0  set
+x[104]   <N2.yC2H4>                       =          0  set
+x[105]   <N2.yC2H6>                       =          0  set
+x[106]   <N2.yC3H8>                       =          0  set
+x[107]   <N2.yCH4>                        =          0  set
+x[108]   <N2.yCO>                         =          0  set
+x[109]   <N2.yCO2>                        =          0  set
+x[110]   <N2.yH2>                         =          0  set
+x[111]   <N2.yH2O>                        =          0  set
+x[112]   <N2.yH2S>                        =          0  set
+x[113]   <N2.yHCl>                        =          0  set
+x[114]   <N2.yHCN>                        =          0  set
+x[115]   <N2.yN2>                         =          1  converged
+x[116]   <N2.yN2O>                        =          0  set
+x[117]   <N2.yNH3>                        =          0  set
+x[118]   <N2.yNO>                         =          0  set
+x[119]   <N2.yO2>                         =          0  set
+x[120]   <N2.ySO2>                        =          0  set
+x[121]   <N2.M>                           =     28.013  converged
+x[122]   <N2.Hf298>                       = -2.1215e-06  not calculated
+x[123]   <N2.LHV>                         =          0  not calculated
+x[124]   <N2.HHV>                         =          0  not calculated
+x[125]   <ASH_DUST.wAsh>                  =          1  not converged
+x[126]   <ASH_DUST.wAl2O3>                =          0  not converged
+x[127]   <ASH_DUST.wCaAl2O4>              =          0  not converged
+x[128]   <ASH_DUST.wCaCl2>                =          0  not converged
+x[129]   <ASH_DUST.wCaCO3>                =          0  not converged
+x[130]   <ASH_DUST.wCaO>                  =          0  not converged
+x[131]   <ASH_DUST.wCaOH2>                =          0  not converged
+x[132]   <ASH_DUST.wCaS>                  =          0  not converged
+x[133]   <ASH_DUST.wCaSO4>                =          0  not converged
+x[134]   <ASH_DUST.wCo>                   = -7.1765e-12  not converged
+x[135]   <ASH_DUST.wCoO>                  =          0  not converged
+x[136]   <ASH_DUST.wCu>                   =          0  not converged
+x[137]   <ASH_DUST.wCu2O>                 =          0  not converged
+x[138]   <ASH_DUST.wCuO>                  =          0  not converged
+x[139]   <ASH_DUST.wCuAl2O4>              =          0  not converged
+x[140]   <ASH_DUST.wCuS>                  =          0  not converged
+x[141]   <ASH_DUST.wFe>                   =          0  not converged
+x[142]   <ASH_DUST.wFeO>                  =          0  not converged
+x[143]   <ASH_DUST.wFe3O4>                =          0  not converged
+x[144]   <ASH_DUST.wFe2O3>                =          0  not converged
+x[145]   <ASH_DUST.wFe2SiO4>              =          0  not converged
+x[146]   <ASH_DUST.wK2O>                  =          0  not converged
+x[147]   <ASH_DUST.wMgAl2O4>              =          0  not converged
+x[148]   <ASH_DUST.wMgCO3>                =          0  not converged
+x[149]   <ASH_DUST.wMgO>                  =          0  not converged
+x[150]   <ASH_DUST.wMg2SiO4>              =          0  not converged
+x[151]   <ASH_DUST.wMn>                   =          0  not converged
+x[152]   <ASH_DUST.wMnO>                  =          0  not converged
+x[153]   <ASH_DUST.wMn3O4>                =          0  not converged
+x[154]   <ASH_DUST.wMn2O3>                =          0  not converged
+x[155]   <ASH_DUST.wMnO2>                 =          0  not converged
+x[156]   <ASH_DUST.wNaCl>                 =          0  not converged
+x[157]   <ASH_DUST.wNa2O>                 =          0  not converged
+x[158]   <ASH_DUST.wNi>                   =          0  not converged
+x[159]   <ASH_DUST.wNiO>                  =          0  not converged
+x[160]   <ASH_DUST.wNiAl2O4>              =          0  not converged
+x[161]   <ASH_DUST.wSiO2>                 =          0  not converged
+x[162]   <ASH_DUST.wTiO2>                 =          0  not converged
+x[163]   <ASH_DUST.wZnO>                  = 4.7073e-12  not converged
+x[164]   <ASH_DUST.wZnS>                  =          0  not converged
+x[165]   <ASH_DUST.wZrO2>                 =          0  not converged
+x[166]   <ASH_DUST.rho>                   =          1  not calculated
+x[167]   <WOOD.SubstNr>                   =          1  converged
+x[168]   <WOOD.wC>                        =       0.51  converged
+x[169]   <WOOD.wH>                        =       0.06  set
+x[170]   <WOOD.wO>                        =       0.43  set
+x[171]   <WOOD.wN>                        =          0  set
+x[172]   <WOOD.wS>                        =          0  set
+x[173]   <WOOD.wCl>                       =          0  set
+x[174]   <WOOD.lhv>                       =      18754  converged
+x[175]   <WOOD.hhv>                       =      20064  converged
+x[176]   <WOOD.hf298>                     =    -5152.4  converged
+x[177]   <WOOD.e_chem>                    =      20064  converged
+x[178]   <TAR.SubstNr>                    =         10  converged
+x[179]   <TAR.wC>                         =       0.95  converged
+x[180]   <TAR.wH>                         =       0.05  set
+x[181]   <TAR.wO>                         =          0  set
+x[182]   <TAR.wN>                         =          0  set
+x[183]   <TAR.wS>                         =          0  set
+x[184]   <TAR.wCl>                        =          0  set
+x[185]   <TAR.lhv>                        =      38490  converged
+x[186]   <TAR.hhv>                        =      39581  not calculated
+x[187]   <TAR.hf298>                      =     1929.4  converged
+x[188]   <TAR.e_chem>                     =      40332  converged
+x[189]   <CHAR.SubstNr>                   =          1  converged
+x[190]   <CHAR.wC>                        =      0.935  converged
+x[191]   <CHAR.wH>                        =      0.015  set
+x[192]   <CHAR.wO>                        =       0.05  set
+x[193]   <CHAR.wN>                        =          0  set
+x[194]   <CHAR.wS>                        =          0  set
+x[195]   <CHAR.wCl>                       =          0  set
+x[196]   <CHAR.lhv>                       =      33439  converged
+x[197]   <CHAR.hhv>                       =      33766  converged
+x[198]   <CHAR.hf298>                     =     1006.5  converged
+x[199]   <CHAR.e_chem>                    =      33766  converged
+x[200]   <SYNGAS.wAr>                     =   0.015097  not converged
+x[201]   <SYNGAS.wC2H4>                   =    0.44076  not converged
+x[202]   <SYNGAS.wC2H6>                   =    0.44077  not converged
+x[203]   <SYNGAS.wC3H8>                   =     0.4408  not converged
+x[204]   <SYNGAS.wCH4>                    =    0.54692  not converged
+x[205]   <SYNGAS.wCO>                     =     1.5534  not converged
+x[206]   <SYNGAS.wCO2>                    =     1.8005  not converged
+x[207]   <SYNGAS.wH2>                     =  0.0087801  not converged
+x[208]   <SYNGAS.wH2O>                    =    0.83828  not converged
+x[209]   <SYNGAS.wH2S>                    =     0.4407  not converged
+x[210]   <SYNGAS.wHCl>                    =   0.015097  not converged
+x[211]   <SYNGAS.wHCN>                    =    0.44071  not converged
+x[212]   <SYNGAS.wN2>                     =     20.622  not converged
+x[213]   <SYNGAS.wN2O>                    =     -32.91  not converged
+x[214]   <SYNGAS.wNH3>                    =    0.44074  not converged
+x[215]   <SYNGAS.wNO>                     =     0.4407  not converged
+x[216]   <SYNGAS.wO2>                     =     13.702  not converged
+x[217]   <SYNGAS.wSO2>                    =   -0.78493  not converged
+x[218]   <SYNGAS.yAr>                     = -0.0011782  not converged
+x[219]   <SYNGAS.yC2H4>                   =      1e-05  set
+x[220]   <SYNGAS.yC2H6>                   =      1e-05  set
+x[221]   <SYNGAS.yC3H8>                   =      1e-05  set
+x[222]   <SYNGAS.yCH4>                    =       0.03  set
+x[223]   <SYNGAS.yCO>                     =       0.18  set
+x[224]   <SYNGAS.yCO2>                    =       0.14  set
+x[225]   <SYNGAS.yH2>                     =    0.22955  not converged
+x[226]   <SYNGAS.yH2O>                    =        0.1  set
+x[227]   <SYNGAS.yH2S>                    =          0  set
+x[228]   <SYNGAS.yHCl>                    = -0.0012909  not converged
+x[229]   <SYNGAS.yHCN>                    =      1e-06  set
+x[230]   <SYNGAS.yN2>                     =      113.7  not converged
+x[231]   <SYNGAS.yN2O>                    =    -226.63  not converged
+x[232]   <SYNGAS.yNH3>                    =      1e-05  set
+x[233]   <SYNGAS.yNO>                     =          0  set
+x[234]   <SYNGAS.yO2>                     =     113.25  not converged
+x[235]   <SYNGAS.ySO2>                    = -0.0021158  not converged
+x[236]   <SYNGAS.M>                       =    -3151.8  not converged
+x[237]   <SYNGAS.Hf298>                   =          1  not calculated
+x[238]   <SYNGAS.LHV>                     =          1  not calculated
+x[239]   <SYNGAS.HHV>                     =          1  not calculated
+x[240]   <c_st_g_002.p>                   =       0.99  converged
+x[241]   <c_st_g_002.t>                   =      30818  not converged
+x[242]   <c_st_g_002.h>                   = 3.4465e+08  not converged
+x[243]   <c_st_g_002.s>                   =     7431.6  not converged
+x[244]   <c_st_g_002.e>                   = 3.4248e+08  not converged
+x[245]   <c_st_g_002.v>                   =          1  not calculated
+x[246]   <c_st_g_002.h_total>             = 3.7722e+08  not converged
+x[247]   <c_st_g_002.massflow>            =    -208.67  not converged
+x[248]   <c_st_g_002.Mass_total>          =          1  not calculated
+x[249]   <c_st_g_002.nvolflow>            =     29.563  not converged
+x[250]   <c_st_g_002.opvolflow>           =          1  not calculated
+x[251]   <c_st_g_002.Energy>              =          1  not calculated
+x[252]   <c_st_g_002.Exergy>              =      32451  not converged
+x[253]   <c_st_g_002.dust_content>        = -0.00014984  not converged
+x[254]   <c_st_g_002.h_dust>              = -3.9114e+09  not converged
+x[255]   <c_st_g_002.s_dust>              =     -59778  not converged
+x[256]   <c_st_g_002.e_dust>              = -3.8935e+09  not converged
+x[257]   <c_st_g_002.char_content>        = -0.00014984  not converged
+x[258]   <c_st_g_002.h_char>              =      72656  not converged
+x[259]   <c_st_g_002.s_char>              =     10.685  not converged
+x[260]   <c_st_g_002.e_char>              = 1.0343e+05  not converged
+x[261]   <c_st_g_002.tar_content>         =    -1263.6  not converged
+x[262]   <c_st_g_002.h_tar>               = 2.7312e+08  not converged
+x[263]   <c_st_g_002.s_tar>               =     4367.1  not converged
+x[264]   <c_st_g_002.e_tar>               = 2.7186e+08  not converged
+x[265]   <c_st_g_002.T_sat>               =          0  not calculated
+x[266]   <c_st_o_002.p>                   =       0.99  converged
+x[267]   <c_st_o_002.t>                   =      30818  not converged
+x[268]   <c_st_o_002.rho>                 =        300  set
+x[269]   <c_st_o_002.h_waf>               =      72656  not converged
+x[270]   <c_st_o_002.s_waf>               =     10.685  not converged
+x[271]   <c_st_o_002.e_waf>               =          1  not calculated
+x[272]   <c_st_o_002.water_content>       =          0  set
+x[273]   <c_st_o_002.ash_content>         =        0.1  not converged
+x[274]   <c_st_o_002.h_total>             = -3.9107e+08  not converged
+x[275]   <c_st_o_002.lhv>                 =          1  not calculated
+x[276]   <c_st_o_002.hhv>                 =          1  not calculated
+x[277]   <c_st_o_002.massflow>            =        0.3  not converged
+x[278]   <c_st_o_002.volflow>             =          1  not calculated
+x[279]   <c_st_o_002.Energy>              =          1  not calculated
+x[280]   <c_st_o_002.Exergy>              =     -32438  not converged
+x[281]   <c_st_g_001.p>                   =          1  set
+x[282]   <c_st_g_001.t>                   =         25  set
+x[283]   <c_st_g_001.h>                   =     25.985  converged
+x[284]   <c_st_g_001.s>                   =     6.8398  converged
+x[285]   <c_st_g_001.e>                   =     34.412  converged
+x[286]   <c_st_g_001.v>                   =    0.88492  not calculated
+x[287]   <c_st_g_001.h_total>             = -7.5732e-05  converged
+x[288]   <c_st_g_001.massflow>            =    -209.55  not converged
+x[289]   <c_st_g_001.Mass_total>          =          1  not calculated
+x[290]   <c_st_g_001.nvolflow>            =    -167.67  not converged
+x[291]   <c_st_g_001.opvolflow>           =          1  not calculated
+x[292]   <c_st_g_001.Energy>              =          1  not calculated
+x[293]   <c_st_g_001.Exergy>              =    -2.0031  not converged
+x[294]   <c_st_g_001.dust_content>        =          0  converged
+x[295]   <c_st_g_001.h_dust>              =          1  not calculated
+x[296]   <c_st_g_001.s_dust>              =          1  not calculated
+x[297]   <c_st_g_001.e_dust>              =          1  converged
+x[298]   <c_st_g_001.char_content>        =          0  converged
+x[299]   <c_st_g_001.h_char>              =          1  not calculated
+x[300]   <c_st_g_001.s_char>              =          1  not calculated
+x[301]   <c_st_g_001.e_char>              =          1  converged
+x[302]   <c_st_g_001.tar_content>         =          0  converged
+x[303]   <c_st_g_001.h_tar>               =          1  not calculated
+x[304]   <c_st_g_001.s_tar>               =          1  not calculated
+x[305]   <c_st_g_001.e_tar>               =          1  converged
+x[306]   <c_st_g_001.T_sat>               =          0  not calculated
+x[307]   <c_st_o_001.p>                   =          1  set
+x[308]   <c_st_o_001.t>                   =         25  set
+x[309]   <c_st_o_001.rho>                 =        400  set
+x[310]   <c_st_o_001.h_waf>               =     27.082  converged
+x[311]   <c_st_o_001.s_waf>               =        0.7  converged
+x[312]   <c_st_o_001.e_waf>               =      20064  not calculated
+x[313]   <c_st_o_001.water_content>       =       0.09  set
+x[314]   <c_st_o_001.ash_content>         =       0.01  set
+x[315]   <c_st_o_001.h_total>             =    -6169.6  converged
+x[316]   <c_st_o_001.lhv>                 =      16659  not calculated
+x[317]   <c_st_o_001.hhv>                 =      18057  not calculated
+x[318]   <c_st_o_001.massflow>            =          3  set
+x[319]   <c_st_o_001.volflow>             =     0.0075  not calculated
+x[320]   <c_st_o_001.Energy>              =     13.911  not calculated
+x[321]   <c_st_o_001.Exergy>              =     15.076  converged
+x[322]   <u_pyrolyser_elc_heat001.P_el_heat> =          2  set
+x[323]   <u_pyrolyser_elc_heat001.Q_loss> =          0  set
+x[324]   <u_pyrolyser_elc_heat001.P_th_pyr> =     13.882  not calculated
+x[325]   <u_pyrolyser_elc_heat001.E_loss> =          0  set
+x[326]   <u_pyrolyser_elc_heat001.dp_feed_org> =       0.01  set
+x[327]   <u_pyrolyser_elc_heat001.dp_feed_gas> =       0.01  not calculated
+x[328]   <u_pyrolyser_elc_heat001.dp_drain_gas_char> =          0  set
+x[329]   <u_pyrolyser_elc_heat001.dp_drain_gas_tar> =          0  set
+x[330]   <u_pyrolyser_elc_heat001.dt_drain_gas_char> =          0  set
+x[331]   <u_pyrolyser_elc_heat001.fract_tar_pg> =        0.1  set
+x[332]   <u_pyrolyser_elc_heat001.fract_char_pg> =          0  set
+x[333]   <u_pyrolyser_elc_heat001.fract_char_bed> =        0.1  set
+x[334]   <u_pyrolyser_elc_heat001.fract_fly_ash> =          0  set
+x[335]   <u_pyrolyser_elc_heat001.unconv_C> =          1  not calculated
+
+========================================================================
+Solution
+Start:	Dec 17 2024, 16:05:09.819
+End:  	Dec 17 2024, 16:05:10.763
+Actual Time:	0.944000 seconds
+CPU Time:   	0.906000 seconds
+CPU Percentage:	24%
+4 errors (0 recovered errors)
+152 warnings (0 recovered warnings)
+========================================================================

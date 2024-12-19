@@ -1,0 +1,1673 @@
+========================================================================
+||
+||     PSStat - Static Solver
+||     Version 8.0 U, Release 17, Build 2459, Aug 18 2023 08:49:32 
+||
+========================================================================
+
+Loading system ...
+
+System has been loaded successfully.
+System analysis ...
+========================================================================
+System model contains 460 variables
+87 variables set to fixed values
+System to be solved contains 373 variables and 372 equations
+
+%Warning: System undefined: 372 equations, 373 variables
+187 groups found. Largest group contains 34 variables.
+========================================================================
+System analysis finished.
+
+
+Starting system solution .... 
+========================================================================
+--------------------------------------------------
+Solving group 1, a group with 1 elements
+
+Group contains the following variables:
+CHAR.SubstNr
+
+Group contains the following equations:
+CHAR.fSubstNr1
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 2, a group with 1 elements
+
+Group contains the following variables:
+CHAR.wC
+
+Group contains the following equations:
+CHAR.fmass_sum
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 3, a group with 1 elements
+
+Group contains the following variables:
+CHAR.lhv
+
+Group contains the following equations:
+CHAR.flhv_boie
+
+Initializing ...
+errf = 33437.8 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.99997 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 4, a group with 1 elements
+
+Group contains the following variables:
+CHAR.hf298
+
+Group contains the following equations:
+CHAR.fhf1
+
+Initializing ...
+errf = 1005.46 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.999006 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 5, a group with 1 elements
+
+Group contains the following variables:
+AIR.yN2
+
+Group contains the following equations:
+AIR.fmolsum
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 6, a group with 1 elements
+
+Group contains the following variables:
+AIR.M
+
+Group contains the following equations:
+AIR.fM
+
+Initializing ...
+errf = 0.0002576 (>4.66252e-05)
+
+
+1. iteration step
+Group converged with errx= 8.89204e-06 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 7, a group with 1 elements
+
+Group contains the following variables:
+AIR.wC2H4
+
+Group contains the following equations:
+AIR.fC2H4
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 8, a group with 1 elements
+
+Group contains the following variables:
+AIR.wC2H6
+
+Group contains the following equations:
+AIR.fC2H6
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 9, a group with 1 elements
+
+Group contains the following variables:
+AIR.wC3H8
+
+Group contains the following equations:
+AIR.fC3H8
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 10, a group with 1 elements
+
+Group contains the following variables:
+AIR.wCH4
+
+Group contains the following equations:
+AIR.fCH4
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 11, a group with 1 elements
+
+Group contains the following variables:
+AIR.wH2
+
+Group contains the following equations:
+AIR.fH2
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 12, a group with 1 elements
+
+Group contains the following variables:
+AIR.wH2O
+
+Group contains the following equations:
+AIR.fH2O
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 13, a group with 1 elements
+
+Group contains the following variables:
+AIR.wH2S
+
+Group contains the following equations:
+AIR.fH2S
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 14, a group with 1 elements
+
+Group contains the following variables:
+AIR.wHCl
+
+Group contains the following equations:
+AIR.fHCl
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 15, a group with 1 elements
+
+Group contains the following variables:
+AIR.wHCN
+
+Group contains the following equations:
+AIR.fHCN
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 16, a group with 1 elements
+
+Group contains the following variables:
+AIR.wNH3
+
+Group contains the following equations:
+AIR.fNH3
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 17, a group with 1 elements
+
+Group contains the following variables:
+AIR.wSO2
+
+Group contains the following equations:
+AIR.fSO2
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 18, a group with 1 elements
+
+Group contains the following variables:
+AIR.wN2
+
+Group contains the following equations:
+AIR.fN2
+
+Initializing ...
+errf = 7.11923 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.325815 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 19, a group with 1 elements
+
+Group contains the following variables:
+AIR.wN2O
+
+Group contains the following equations:
+AIR.fN2O
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 20, a group with 1 elements
+
+Group contains the following variables:
+AIR.wNO
+
+Group contains the following equations:
+AIR.fNO
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 21, a group with 1 elements
+
+Group contains the following variables:
+AIR.wAr
+
+Group contains the following equations:
+AIR.fAr
+
+Initializing ...
+errf = 28.5703 (>4.66252e-05)
+
+
+1. iteration step
+errx = 71.5186 (>4.66252e-05)
+Group converged with errf= 1.60982e-15 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 22, a group with 1 elements
+
+Group contains the following variables:
+AIR.wCO
+
+Group contains the following equations:
+AIR.fCO
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 23, a group with 1 elements
+
+Group contains the following variables:
+AIR.wCO2
+
+Group contains the following equations:
+AIR.fCO2
+
+Initializing ...
+errf = 28.9697 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 24, a group with 1 elements
+
+Group contains the following variables:
+TAR.wC
+
+Group contains the following equations:
+TAR.fmass_sum
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 25, a group with 1 elements
+
+Group contains the following variables:
+WOOD.wC
+
+Group contains the following equations:
+WOOD.fmass_sum
+
+Initializing ...
+errf = 0.02 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.0384615 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 26, a group with 1 elements
+
+Group contains the following variables:
+AIR.wO2
+
+Group contains the following equations:
+AIR.fO2
+
+Initializing ...
+errf = 22.25 (>4.66252e-05)
+
+
+1. iteration step
+errx = 3.31114 (>4.66252e-05)
+Group converged with errf= 8.88178e-16 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 27, a group with 1 elements
+
+Group contains the following variables:
+TAR.lhv
+
+Group contains the following equations:
+TAR.flhv_tar
+
+Initializing ...
+errf = 38488.5 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.999974 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 28, a group with 1 elements
+
+Group contains the following variables:
+TAR.SubstNr
+
+Group contains the following equations:
+TAR.fSubstNr10
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 29, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_002.p
+
+Group contains the following equations:
+u_pyrol_htd_001.fdp_feed_org
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 30, a group with 1 elements
+
+Group contains the following variables:
+c_st_o_002.p
+
+Group contains the following equations:
+u_pyrol_htd_001.fdp_drain_gas_char
+
+Initializing ...
+errf = 0.05 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.0526316 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 31, a group with 1 elements
+
+Group contains the following variables:
+WOOD.SubstNr
+
+Group contains the following equations:
+WOOD.fSubstNr1
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 32, a group with 1 elements
+
+Group contains the following variables:
+WOOD.lhv
+
+Group contains the following equations:
+WOOD.flhv_boie
+
+Initializing ...
+errf = 19209.4 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.999948 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 33, a group with 1 elements
+
+Group contains the following variables:
+WOOD.hf298
+
+Group contains the following equations:
+WOOD.fhf1
+
+Initializing ...
+errf = 5024.71 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1.0002 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 34, a group with 1 elements
+
+Group contains the following variables:
+c_st_o_001.h_waf
+
+Group contains the following equations:
+c_st_o_001.fh
+
+Initializing ...
+errf = 26.1254 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.963134 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 35, a group with 1 elements
+
+Group contains the following variables:
+TAR.hf298
+
+Group contains the following equations:
+TAR.fhf2
+
+Initializing ...
+errf = 1196.99 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.999165 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 36, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.h
+
+Group contains the following equations:
+c_st_g_001.fh
+
+Initializing ...
+errf = 24.0918 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.960146 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 37, a group with 1 elements
+
+Group contains the following variables:
+c_st_g_001.h_total
+
+Group contains the following equations:
+c_st_g_001.fh_total1
+
+Initializing ...
+errf = 1.00009 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000.09 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 38, a group with 1 elements
+
+Group contains the following variables:
+ASH_OUT.rho
+
+Group contains the following equations:
+ASH_OUT.frho
+
+Initializing ...
+errf = 2649 (>4.66252e-05)
+
+
+1. iteration step
+errx = 2649 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 39, a group with 1 elements
+
+Group contains the following variables:
+EXHAUST_GAS.yC2H4
+
+Group contains the following equations:
+u_pyrol_htd_001.frC2H4
+
+Initializing ...
+errf = 1 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 40, a group with 1 elements
+
+Group contains the following variables:
+EXHAUST_GAS.yC2H6
+
+Group contains the following equations:
+u_pyrol_htd_001.frC2H6
+
+Initializing ...
+errf = 1 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 41, a group with 1 elements
+
+Group contains the following variables:
+EXHAUST_GAS.yC3H8
+
+Group contains the following equations:
+u_pyrol_htd_001.frC3H8
+
+Initializing ...
+errf = 1 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 42, a group with 1 elements
+
+Group contains the following variables:
+EXHAUST_GAS.yCH4
+
+Group contains the following equations:
+u_pyrol_htd_001.frCH4
+
+Initializing ...
+errf = 1 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 43, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.yCH4
+
+Group contains the following equations:
+METHANE_FUEL.fmolsum
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 44, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.M
+
+Group contains the following equations:
+METHANE_FUEL.fM
+
+Initializing ...
+errf = 0.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.00266786 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 45, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wO2
+
+Group contains the following equations:
+METHANE_FUEL.fO2
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 46, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.LHV
+
+Group contains the following equations:
+METHANE_FUEL.fLHV
+
+Initializing ...
+errf = 34.7932 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.972062 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 47, a group with 1 elements
+
+Group contains the following variables:
+AIR.LHV
+
+Group contains the following equations:
+AIR.fLHV
+
+Initializing ...
+errf = 1 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 48, a group with 1 elements
+
+Group contains the following variables:
+u_pyrol_htd_001.P_th_comb
+
+Group contains the following equations:
+u_pyrol_htd_001.fQ_loss_comb
+
+Initializing ...
+errf = 9.9 (>4.66252e-05)
+
+
+1. iteration step
+errx = 0.99 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 49, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wAr
+
+Group contains the following equations:
+METHANE_FUEL.fAr
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 50, a group with 1 elements
+
+Group contains the following variables:
+EXHAUST_GAS.yHCN
+
+Group contains the following equations:
+u_pyrol_htd_001.frHCN
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 51, a group with 1 elements
+
+Group contains the following variables:
+EXHAUST_GAS.yN2O
+
+Group contains the following equations:
+u_pyrol_htd_001.frN2O
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 52, a group with 1 elements
+
+Group contains the following variables:
+EXHAUST_GAS.yNH3
+
+Group contains the following equations:
+u_pyrol_htd_001.frNH3
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 53, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wC2H4
+
+Group contains the following equations:
+METHANE_FUEL.fC2H4
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 54, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wC2H6
+
+Group contains the following equations:
+METHANE_FUEL.fC2H6
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 55, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wC3H8
+
+Group contains the following equations:
+METHANE_FUEL.fC3H8
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 56, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wCH4
+
+Group contains the following equations:
+METHANE_FUEL.fCH4
+
+Initializing ...
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 57, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wCO
+
+Group contains the following equations:
+METHANE_FUEL.fCO
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 58, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wCO2
+
+Group contains the following equations:
+METHANE_FUEL.fCO2
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 59, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wHCN
+
+Group contains the following equations:
+METHANE_FUEL.fHCN
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 60, a group with 1 elements
+
+Group contains the following variables:
+EXHAUST_GAS.yH2
+
+Group contains the following equations:
+u_pyrol_htd_001.frH2
+
+Initializing ...
+errf = 1 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 61, a group with 1 elements
+
+Group contains the following variables:
+EXHAUST_GAS.yH2S
+
+Group contains the following equations:
+u_pyrol_htd_001.frH2S
+
+Initializing ...
+errf = 1 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 62, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wHCl
+
+Group contains the following equations:
+METHANE_FUEL.fHCl
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 63, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wH2
+
+Group contains the following equations:
+METHANE_FUEL.fH2
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 64, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wH2O
+
+Group contains the following equations:
+METHANE_FUEL.fH2O
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 65, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wH2S
+
+Group contains the following equations:
+METHANE_FUEL.fH2S
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 66, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wNH3
+
+Group contains the following equations:
+METHANE_FUEL.fNH3
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 67, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wSO2
+
+Group contains the following equations:
+METHANE_FUEL.fSO2
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 68, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wN2O
+
+Group contains the following equations:
+METHANE_FUEL.fN2O
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 69, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wNO
+
+Group contains the following equations:
+METHANE_FUEL.fNO
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 70, a group with 1 elements
+
+Group contains the following variables:
+METHANE_FUEL.wN2
+
+Group contains the following equations:
+METHANE_FUEL.fN2
+
+Initializing ...
+errf = 16.0428 (>4.66252e-05)
+
+
+1. iteration step
+errx = 1000 (>4.66252e-05)
+Group converged with errf= 0 (<=4.66252e-05)
+--------------------------------------------------
+Solving group 71, a group with 34 elements
+
+Group contains the following variables:
+EXHAUST_GAS.ySO2	EXHAUST_GAS.yNO	EXHAUST_GAS.yHCl	EXHAUST_GAS.yH2O
+EXHAUST_GAS.wSO2	EXHAUST_GAS.wHCl	EXHAUST_GAS.wH2S	EXHAUST_GAS.wH2
+EXHAUST_GAS.wH2O	EXHAUST_GAS.wCH4	EXHAUST_GAS.wC3H8	EXHAUST_GAS.wC2H6
+EXHAUST_GAS.wC2H4	EXHAUST_GAS.wCO2	EXHAUST_GAS.wNO	EXHAUST_GAS.wNH3
+EXHAUST_GAS.wN2O	EXHAUST_GAS.wHCN	EXHAUST_GAS.wN2	c_st_g_003.nvolflow
+c_st_g_003.massflow	c_st_g_004.nvolflow	c_st_g_004.massflow	EXHAUST_GAS.yO2
+EXHAUST_GAS.wO2	EXHAUST_GAS.wCO	c_st_g_005.massflow	c_st_g_005.nvolflow
+EXHAUST_GAS.yN2	EXHAUST_GAS.M	EXHAUST_GAS.yCO2	EXHAUST_GAS.yCO
+EXHAUST_GAS.yAr	EXHAUST_GAS.wAr
+
+Group contains the following equations:
+EXHAUST_GAS.fSO2	EXHAUST_GAS.fNO	EXHAUST_GAS.fHCl	EXHAUST_GAS.fH2O
+u_pyrol_htd_001.fS_1	u_pyrol_htd_001.fCl_1	EXHAUST_GAS.fH2S	EXHAUST_GAS.fH2
+u_pyrol_htd_001.fH_1	EXHAUST_GAS.fCH4	EXHAUST_GAS.fC3H8	EXHAUST_GAS.fC2H6
+EXHAUST_GAS.fC2H4	u_pyrol_htd_001.fC_1	u_pyrol_htd_001.fO_1	EXHAUST_GAS.fNH3
+EXHAUST_GAS.fN2O	EXHAUST_GAS.fHCN	u_pyrol_htd_001.fN_1	c_st_g_003.fnvolflow
+u_pyrol_htd_001.fAr_1	u_pyrol_htd_001.fP_th_comb_1	c_st_g_004.fnvolflow	u_pyrol_htd_001.frCO
+EXHAUST_GAS.fO2	EXHAUST_GAS.fCO	u_pyrol_htd_001.flambda_comb	c_st_g_005.fnvolflow
+u_pyrol_htd_001.frN2	EXHAUST_GAS.fN2	EXHAUST_GAS.fCO2	EXHAUST_GAS.fmolsum
+EXHAUST_GAS.fM	EXHAUST_GAS.fAr
+
+Initializing ...
+errf = 4.1041e+06 (>0.00027187)
+
+
+1. iteration step
+errx = 1001.79 (>0.00027187)
+errf = 1840.21 (>0.00027187)
+
+
+2. iteration step
+errx = 11.3335 (>0.00027187)
+errf = 1501.93 (>0.00027187)
+
+
+3. iteration step
+errx = 40.7772 (>0.00027187)
+errf = 182.203 (>0.00027187)
+
+
+4. iteration step
+errx = 5.94476 (>0.00027187)
+errf = 1743.22 (>0.00027187)
+
+
+5. iteration step
+errx = 195.706 (>0.00027187)
+errf = 396.359 (>0.00027187)
+
+
+6. iteration step
+errx = 5.48954 (>0.00027187)
+errf = 834545 (>0.00027187)
+
+
+7. iteration step
+errx = 59.5507 (>0.00027187)
+errf = 90072.3 (>0.00027187)
+
+
+8. iteration step
+errx = 6.13486 (>0.00027187)
+errf = 15777.8 (>0.00027187)
+
+
+9. iteration step
+errx = 22.6838 (>0.00027187)
+errf = 2184.16 (>0.00027187)
+
+
+10. iteration step
+errx = 28.8029 (>0.00027187)
+%Error: Newton: Group not converged
+
+%Warning: Settings analysis not possible
+========================================================================
+System solution finished.
+
+
+%Warning: Test condition for g_cmp_gas_ EXHAUST_GAS not satisfied:
+tminAr:	"yAr < 0.0"
+
+%Warning: Test condition for g_cmp_gas_ EXHAUST_GAS not satisfied:
+tmaxCO2:	"yCO2 > 1.0"
+
+%Warning: Test condition for g_cmp_gas_ EXHAUST_GAS not satisfied:
+tmaxH2O:	"yH2O > 1.0"
+
+%Warning: Test condition for g_cmp_gas_ EXHAUST_GAS not satisfied:
+tminHCl:	"yHCl < 0.0"
+
+%Warning: Test condition for g_cmp_gas_ EXHAUST_GAS not satisfied:
+tmaxN2:	"yN2 > 1.0"
+
+%Warning: Test condition for g_cmp_gas_ EXHAUST_GAS not satisfied:
+tminNO:	"yNO < 0.0"
+
+%Warning: Test condition for g_cmp_gas_ EXHAUST_GAS not satisfied:
+tminO2:	"yO2 < 0.0"
+
+%Warning: Test condition for g_cmp_gas_ EXHAUST_GAS not satisfied:
+tminSO2:	"ySO2 < 0.0"
+
+%Warning: Test condition for c_st_g_ c_st_g_005 not satisfied:
+tmassflow:	"Mass flow negative"
+
+%Warning: Test condition for c_st_g_ c_st_g_003 not satisfied:
+tcond:	"H2O in gas stream is condensing."
+
+%Warning: Test condition for c_st_g_ c_st_g_002 not satisfied:
+tcond:	"H2O in gas stream is condensing."
+
+========================================================================
+Results:
+
+x[1]     <ASH_OUT.wAsh>                   =          1  not calculated
+x[2]     <ASH_OUT.wAl2O3>                 =          0  not calculated
+x[3]     <ASH_OUT.wCaAl2O4>               =          0  not calculated
+x[4]     <ASH_OUT.wCaCl2>                 =          0  not calculated
+x[5]     <ASH_OUT.wCaCO3>                 =          0  not calculated
+x[6]     <ASH_OUT.wCaO>                   =          0  not calculated
+x[7]     <ASH_OUT.wCaOH2>                 =          0  not calculated
+x[8]     <ASH_OUT.wCaS>                   =          0  not calculated
+x[9]     <ASH_OUT.wCaSO4>                 =          0  not calculated
+x[10]    <ASH_OUT.wCo>                    =          0  not calculated
+x[11]    <ASH_OUT.wCoO>                   =          0  not calculated
+x[12]    <ASH_OUT.wCu>                    =          0  not calculated
+x[13]    <ASH_OUT.wCu2O>                  =          0  not calculated
+x[14]    <ASH_OUT.wCuO>                   =          0  not calculated
+x[15]    <ASH_OUT.wCuAl2O4>               =          0  not calculated
+x[16]    <ASH_OUT.wCuS>                   =          0  not calculated
+x[17]    <ASH_OUT.wFe>                    =          0  not calculated
+x[18]    <ASH_OUT.wFeO>                   =          0  not calculated
+x[19]    <ASH_OUT.wFe3O4>                 =          0  not calculated
+x[20]    <ASH_OUT.wFe2O3>                 =          0  not calculated
+x[21]    <ASH_OUT.wFe2SiO4>               =          0  not calculated
+x[22]    <ASH_OUT.wK2O>                   =          0  not calculated
+x[23]    <ASH_OUT.wMgAl2O4>               =          0  not calculated
+x[24]    <ASH_OUT.wMgCO3>                 =          0  not calculated
+x[25]    <ASH_OUT.wMgO>                   =          0  not calculated
+x[26]    <ASH_OUT.wMg2SiO4>               =          0  not calculated
+x[27]    <ASH_OUT.wMn>                    =          0  not calculated
+x[28]    <ASH_OUT.wMnO>                   =          0  not calculated
+x[29]    <ASH_OUT.wMn3O4>                 =          0  not calculated
+x[30]    <ASH_OUT.wMn2O3>                 =          0  not calculated
+x[31]    <ASH_OUT.wMnO2>                  =          0  not calculated
+x[32]    <ASH_OUT.wNaCl>                  =          0  not calculated
+x[33]    <ASH_OUT.wNa2O>                  =          0  not calculated
+x[34]    <ASH_OUT.wNi>                    =          0  not calculated
+x[35]    <ASH_OUT.wNiO>                   =          0  not calculated
+x[36]    <ASH_OUT.wNiAl2O4>               =          0  not calculated
+x[37]    <ASH_OUT.wSiO2>                  =          0  not calculated
+x[38]    <ASH_OUT.wTiO2>                  =          0  not calculated
+x[39]    <ASH_OUT.wZnO>                   =          0  not calculated
+x[40]    <ASH_OUT.wZnS>                   =          0  not calculated
+x[41]    <ASH_OUT.wZrO2>                  =          0  not calculated
+x[42]    <ASH_OUT.rho>                    =          1  converged
+x[43]    <PYROLYSIS_GAS.wAr>              =          1  not calculated
+x[44]    <PYROLYSIS_GAS.wC2H4>            =          1  not calculated
+x[45]    <PYROLYSIS_GAS.wC2H6>            =          1  not calculated
+x[46]    <PYROLYSIS_GAS.wC3H8>            =          1  not calculated
+x[47]    <PYROLYSIS_GAS.wCH4>             =          1  not calculated
+x[48]    <PYROLYSIS_GAS.wCO>              =          1  not calculated
+x[49]    <PYROLYSIS_GAS.wCO2>             =          1  not calculated
+x[50]    <PYROLYSIS_GAS.wH2>              =          1  not calculated
+x[51]    <PYROLYSIS_GAS.wH2O>             =          1  not calculated
+x[52]    <PYROLYSIS_GAS.wH2S>             =          1  not calculated
+x[53]    <PYROLYSIS_GAS.wHCl>             =          1  not calculated
+x[54]    <PYROLYSIS_GAS.wHCN>             =          1  not calculated
+x[55]    <PYROLYSIS_GAS.wN2>              =          1  not calculated
+x[56]    <PYROLYSIS_GAS.wN2O>             =          1  not calculated
+x[57]    <PYROLYSIS_GAS.wNH3>             =          1  not calculated
+x[58]    <PYROLYSIS_GAS.wNO>              =          1  not calculated
+x[59]    <PYROLYSIS_GAS.wO2>              =          1  not calculated
+x[60]    <PYROLYSIS_GAS.wSO2>             =          1  not calculated
+x[61]    <PYROLYSIS_GAS.yAr>              =          1  not calculated
+x[62]    <PYROLYSIS_GAS.yC2H4>            =          0  set
+x[63]    <PYROLYSIS_GAS.yC2H6>            =          0  set
+x[64]    <PYROLYSIS_GAS.yC3H8>            =          0  set
+x[65]    <PYROLYSIS_GAS.yCH4>             =          0  set
+x[66]    <PYROLYSIS_GAS.yCO>              =          1  not calculated
+x[67]    <PYROLYSIS_GAS.yCO2>             =          1  not calculated
+x[68]    <PYROLYSIS_GAS.yH2>              =          1  not calculated
+x[69]    <PYROLYSIS_GAS.yH2O>             =        0.1  not calculated
+x[70]    <PYROLYSIS_GAS.yH2S>             =          0  set
+x[71]    <PYROLYSIS_GAS.yHCl>             =          0  set
+x[72]    <PYROLYSIS_GAS.yHCN>             =          0  set
+x[73]    <PYROLYSIS_GAS.yN2>              =          1  not calculated
+x[74]    <PYROLYSIS_GAS.yN2O>             =          0  set
+x[75]    <PYROLYSIS_GAS.yNH3>             =          0  set
+x[76]    <PYROLYSIS_GAS.yNO>              =          0  set
+x[77]    <PYROLYSIS_GAS.yO2>              =          0  set
+x[78]    <PYROLYSIS_GAS.ySO2>             =          0  set
+x[79]    <PYROLYSIS_GAS.M>                =          1  not calculated
+x[80]    <PYROLYSIS_GAS.Hf298>            =          1  not calculated
+x[81]    <PYROLYSIS_GAS.LHV>              =          1  not calculated
+x[82]    <PYROLYSIS_GAS.HHV>              =          1  not calculated
+x[83]    <EXHAUST_GAS.wAr>                =     65.793  not converged
+x[84]    <EXHAUST_GAS.wC2H4>              =   -0.64996  not converged
+x[85]    <EXHAUST_GAS.wC2H6>              =   -0.64996  not converged
+x[86]    <EXHAUST_GAS.wC3H8>              =   -0.64996  not converged
+x[87]    <EXHAUST_GAS.wCH4>               =   -0.64996  not converged
+x[88]    <EXHAUST_GAS.wCO>                =   -0.64996  not converged
+x[89]    <EXHAUST_GAS.wCO2>               =     128.91  not converged
+x[90]    <EXHAUST_GAS.wH2>                =   -0.64996  not converged
+x[91]    <EXHAUST_GAS.wH2O>               =     608.84  not converged
+x[92]    <EXHAUST_GAS.wH2S>               =   -0.64996  not converged
+x[93]    <EXHAUST_GAS.wHCl>               =     79.943  not converged
+x[94]    <EXHAUST_GAS.wHCN>               =   -0.64996  not converged
+x[95]    <EXHAUST_GAS.wN2>                =     66.151  not converged
+x[96]    <EXHAUST_GAS.wN2O>               =   -0.64996  not converged
+x[97]    <EXHAUST_GAS.wNH3>               =   -0.64996  not converged
+x[98]    <EXHAUST_GAS.wNO>                =    -1207.2  not converged
+x[99]    <EXHAUST_GAS.wO2>                =     22.574  not converged
+x[100]   <EXHAUST_GAS.wSO2>               =     231.44  not converged
+x[101]   <EXHAUST_GAS.yAr>                =    -2.6468  not converged
+x[102]   <EXHAUST_GAS.yC2H4>              =          0  converged
+x[103]   <EXHAUST_GAS.yC2H6>              =          0  converged
+x[104]   <EXHAUST_GAS.yC3H8>              =          0  converged
+x[105]   <EXHAUST_GAS.yCH4>               =          0  converged
+x[106]   <EXHAUST_GAS.yCO>                =          0  not converged
+x[107]   <EXHAUST_GAS.yCO2>               =     21.905  not converged
+x[108]   <EXHAUST_GAS.yH2>                =          0  converged
+x[109]   <EXHAUST_GAS.yH2O>               =     1.7846  not converged
+x[110]   <EXHAUST_GAS.yH2S>               =          0  converged
+x[111]   <EXHAUST_GAS.yHCl>               =    -3.3243  not converged
+x[112]   <EXHAUST_GAS.yHCN>               =          0  converged
+x[113]   <EXHAUST_GAS.yN2>                =     40.642  not converged
+x[114]   <EXHAUST_GAS.yN2O>               =          0  converged
+x[115]   <EXHAUST_GAS.yNH3>               =          0  converged
+x[116]   <EXHAUST_GAS.yNO>                =    -50.676  not converged
+x[117]   <EXHAUST_GAS.yO2>                =     -1.237  not converged
+x[118]   <EXHAUST_GAS.ySO2>               =    -5.4482  not converged
+x[119]   <EXHAUST_GAS.M>                  =    -1.4195  not converged
+x[120]   <EXHAUST_GAS.Hf298>              =          1  not calculated
+x[121]   <EXHAUST_GAS.LHV>                =          1  not calculated
+x[122]   <EXHAUST_GAS.HHV>                =          1  not calculated
+x[123]   <METHANE_FUEL.wAr>               =          0  converged
+x[124]   <METHANE_FUEL.wC2H4>             =          0  converged
+x[125]   <METHANE_FUEL.wC2H6>             =          0  converged
+x[126]   <METHANE_FUEL.wC3H8>             =          0  converged
+x[127]   <METHANE_FUEL.wCH4>              =          1  converged
+x[128]   <METHANE_FUEL.wCO>               =          0  converged
+x[129]   <METHANE_FUEL.wCO2>              =          0  converged
+x[130]   <METHANE_FUEL.wH2>               =          0  converged
+x[131]   <METHANE_FUEL.wH2O>              =          0  converged
+x[132]   <METHANE_FUEL.wH2S>              =          0  converged
+x[133]   <METHANE_FUEL.wHCl>              =          0  converged
+x[134]   <METHANE_FUEL.wHCN>              =          0  converged
+x[135]   <METHANE_FUEL.wN2>               =          0  converged
+x[136]   <METHANE_FUEL.wN2O>              =          0  converged
+x[137]   <METHANE_FUEL.wNH3>              =          0  converged
+x[138]   <METHANE_FUEL.wNO>               =          0  converged
+x[139]   <METHANE_FUEL.wO2>               =          0  converged
+x[140]   <METHANE_FUEL.wSO2>              =          0  converged
+x[141]   <METHANE_FUEL.yAr>               =          0  set
+x[142]   <METHANE_FUEL.yC2H4>             =          0  set
+x[143]   <METHANE_FUEL.yC2H6>             =          0  set
+x[144]   <METHANE_FUEL.yC3H8>             =          0  set
+x[145]   <METHANE_FUEL.yCH4>              =          1  converged
+x[146]   <METHANE_FUEL.yCO>               =          0  set
+x[147]   <METHANE_FUEL.yCO2>              =          0  set
+x[148]   <METHANE_FUEL.yH2>               =          0  set
+x[149]   <METHANE_FUEL.yH2O>              =          0  set
+x[150]   <METHANE_FUEL.yH2S>              =          0  set
+x[151]   <METHANE_FUEL.yHCl>              =          0  set
+x[152]   <METHANE_FUEL.yHCN>              =          0  set
+x[153]   <METHANE_FUEL.yN2>               =          0  set
+x[154]   <METHANE_FUEL.yN2O>              =          0  set
+x[155]   <METHANE_FUEL.yNH3>              =          0  set
+x[156]   <METHANE_FUEL.yNO>               =          0  set
+x[157]   <METHANE_FUEL.yO2>               =          0  set
+x[158]   <METHANE_FUEL.ySO2>              =          0  set
+x[159]   <METHANE_FUEL.M>                 =     16.043  converged
+x[160]   <METHANE_FUEL.Hf298>             =          1  not calculated
+x[161]   <METHANE_FUEL.LHV>               =     35.793  converged
+x[162]   <METHANE_FUEL.HHV>               =          1  not calculated
+x[163]   <AIR.wAr>                        =    0.01379  converged
+x[164]   <AIR.wC2H4>                      =          0  converged
+x[165]   <AIR.wC2H6>                      =          0  converged
+x[166]   <AIR.wC3H8>                      =          0  converged
+x[167]   <AIR.wCH4>                       =          0  converged
+x[168]   <AIR.wCO>                        =          0  converged
+x[169]   <AIR.wCO2>                       =          0  converged
+x[170]   <AIR.wH2>                        =          0  converged
+x[171]   <AIR.wH2O>                       =          0  converged
+x[172]   <AIR.wH2S>                       =          0  converged
+x[173]   <AIR.wHCl>                       =          0  converged
+x[174]   <AIR.wHCN>                       =          0  converged
+x[175]   <AIR.wN2>                        =    0.75425  converged
+x[176]   <AIR.wN2O>                       =          0  converged
+x[177]   <AIR.wNH3>                       =          0  converged
+x[178]   <AIR.wNO>                        =          0  converged
+x[179]   <AIR.wO2>                        =    0.23196  converged
+x[180]   <AIR.wSO2>                       =          0  converged
+x[181]   <AIR.yAr>                        =       0.01  set
+x[182]   <AIR.yC2H4>                      =          0  set
+x[183]   <AIR.yC2H6>                      =          0  set
+x[184]   <AIR.yC3H8>                      =          0  set
+x[185]   <AIR.yCH4>                       =          0  set
+x[186]   <AIR.yCO>                        =          0  set
+x[187]   <AIR.yCO2>                       =          0  set
+x[188]   <AIR.yH2>                        =          0  set
+x[189]   <AIR.yH2O>                       =          0  set
+x[190]   <AIR.yH2S>                       =          0  set
+x[191]   <AIR.yHCl>                       =          0  set
+x[192]   <AIR.yHCN>                       =          0  set
+x[193]   <AIR.yN2>                        =       0.78  converged
+x[194]   <AIR.yN2O>                       =          0  set
+x[195]   <AIR.yNH3>                       =          0  set
+x[196]   <AIR.yNO>                        =          0  set
+x[197]   <AIR.yO2>                        =       0.21  set
+x[198]   <AIR.ySO2>                       =          0  set
+x[199]   <AIR.M>                          =      28.97  converged
+x[200]   <AIR.Hf298>                      =          1  not calculated
+x[201]   <AIR.LHV>                        =          0  converged
+x[202]   <AIR.HHV>                        =          1  not calculated
+x[203]   <CHAR.SubstNr>                   =          1  converged
+x[204]   <CHAR.wC>                        =      0.935  converged
+x[205]   <CHAR.wH>                        =      0.015  set
+x[206]   <CHAR.wO>                        =       0.05  set
+x[207]   <CHAR.wN>                        =          0  set
+x[208]   <CHAR.wS>                        =          0  set
+x[209]   <CHAR.wCl>                       =          0  set
+x[210]   <CHAR.lhv>                       =      33439  converged
+x[211]   <CHAR.hhv>                       =          1  not calculated
+x[212]   <CHAR.hf298>                     =     1006.5  converged
+x[213]   <CHAR.e_chem>                    =          1  not calculated
+x[214]   <TAR.SubstNr>                    =         10  converged
+x[215]   <TAR.wC>                         =       0.94  converged
+x[216]   <TAR.wH>                         =       0.06  set
+x[217]   <TAR.wO>                         =          0  set
+x[218]   <TAR.wN>                         =          0  set
+x[219]   <TAR.wS>                         =          0  set
+x[220]   <TAR.wCl>                        =          0  set
+x[221]   <TAR.lhv>                        =      38490  converged
+x[222]   <TAR.hhv>                        =          1  not calculated
+x[223]   <TAR.hf298>                      =       1198  converged
+x[224]   <TAR.e_chem>                     =          1  not calculated
+x[225]   <WOOD.SubstNr>                   =          1  converged
+x[226]   <WOOD.wC>                        =       0.52  converged
+x[227]   <WOOD.wH>                        =       0.06  set
+x[228]   <WOOD.wO>                        =       0.42  set
+x[229]   <WOOD.wN>                        =          0  set
+x[230]   <WOOD.wS>                        =          0  set
+x[231]   <WOOD.wCl>                       =          0  set
+x[232]   <WOOD.lhv>                       =      19210  converged
+x[233]   <WOOD.hhv>                       =          1  not calculated
+x[234]   <WOOD.hf298>                     =    -5023.7  converged
+x[235]   <WOOD.e_chem>                    =          1  not calculated
+x[236]   <ASH.wAsh>                       =          1  not calculated
+x[237]   <ASH.wAl2O3>                     =          0  not calculated
+x[238]   <ASH.wCaAl2O4>                   =          0  not calculated
+x[239]   <ASH.wCaCl2>                     =          0  not calculated
+x[240]   <ASH.wCaCO3>                     =          0  not calculated
+x[241]   <ASH.wCaO>                       =          0  not calculated
+x[242]   <ASH.wCaOH2>                     =          0  not calculated
+x[243]   <ASH.wCaS>                       =          0  not calculated
+x[244]   <ASH.wCaSO4>                     =          0  not calculated
+x[245]   <ASH.wCo>                        =          0  not calculated
+x[246]   <ASH.wCoO>                       =          0  not calculated
+x[247]   <ASH.wCu>                        =          0  not calculated
+x[248]   <ASH.wCu2O>                      =          0  not calculated
+x[249]   <ASH.wCuO>                       =          0  not calculated
+x[250]   <ASH.wCuAl2O4>                   =          0  not calculated
+x[251]   <ASH.wCuS>                       =          0  not calculated
+x[252]   <ASH.wFe>                        =          0  not calculated
+x[253]   <ASH.wFeO>                       =          0  not calculated
+x[254]   <ASH.wFe3O4>                     =          0  not calculated
+x[255]   <ASH.wFe2O3>                     =          0  not calculated
+x[256]   <ASH.wFe2SiO4>                   =          0  not calculated
+x[257]   <ASH.wK2O>                       =          0  not calculated
+x[258]   <ASH.wMgAl2O4>                   =          0  not calculated
+x[259]   <ASH.wMgCO3>                     =          0  not calculated
+x[260]   <ASH.wMgO>                       =          0  not calculated
+x[261]   <ASH.wMg2SiO4>                   =          0  not calculated
+x[262]   <ASH.wMn>                        =          0  not calculated
+x[263]   <ASH.wMnO>                       =          0  not calculated
+x[264]   <ASH.wMn3O4>                     =          0  not calculated
+x[265]   <ASH.wMn2O3>                     =          0  not calculated
+x[266]   <ASH.wMnO2>                      =          0  not calculated
+x[267]   <ASH.wNaCl>                      =          0  not calculated
+x[268]   <ASH.wNa2O>                      =          0  not calculated
+x[269]   <ASH.wNi>                        =          0  not calculated
+x[270]   <ASH.wNiO>                       =          0  not calculated
+x[271]   <ASH.wNiAl2O4>                   =          0  not calculated
+x[272]   <ASH.wSiO2>                      =          0  not calculated
+x[273]   <ASH.wTiO2>                      =          0  not calculated
+x[274]   <ASH.wZnO>                       =          0  not calculated
+x[275]   <ASH.wZnS>                       =          0  not calculated
+x[276]   <ASH.wZrO2>                      =          0  not calculated
+x[277]   <ASH.rho>                        =       2650  not calculated
+x[278]   <c_st_o_002.p>                   =       0.95  converged
+x[279]   <c_st_o_002.t>                   =        500  not calculated
+x[280]   <c_st_o_002.rho>                 =        300  set
+x[281]   <c_st_o_002.h_waf>               =          1  not calculated
+x[282]   <c_st_o_002.s_waf>               =          1  not calculated
+x[283]   <c_st_o_002.e_waf>               =          1  not calculated
+x[284]   <c_st_o_002.water_content>       =          0  set
+x[285]   <c_st_o_002.ash_content>         =          0  not calculated
+x[286]   <c_st_o_002.h_total>             =          1  not calculated
+x[287]   <c_st_o_002.lhv>                 =          1  not calculated
+x[288]   <c_st_o_002.hhv>                 =          1  not calculated
+x[289]   <c_st_o_002.massflow>            =          1  not calculated
+x[290]   <c_st_o_002.volflow>             =          1  not calculated
+x[291]   <c_st_o_002.Energy>              =          1  not calculated
+x[292]   <c_st_o_002.Exergy>              =          1  not calculated
+x[293]   <c_st_o_001.p>                   =       1.05  set
+x[294]   <c_st_o_001.t>                   =         25  set
+x[295]   <c_st_o_001.rho>                 =        430  set
+x[296]   <c_st_o_001.h_waf>               =     27.125  converged
+x[297]   <c_st_o_001.s_waf>               =          1  not calculated
+x[298]   <c_st_o_001.e_waf>               =          1  not calculated
+x[299]   <c_st_o_001.water_content>       =       0.18  set
+x[300]   <c_st_o_001.ash_content>         =          0  set
+x[301]   <c_st_o_001.h_total>             =          1  not calculated
+x[302]   <c_st_o_001.lhv>                 =          1  not calculated
+x[303]   <c_st_o_001.hhv>                 =          1  not calculated
+x[304]   <c_st_o_001.massflow>            =        500  set
+x[305]   <c_st_o_001.volflow>             =          1  not calculated
+x[306]   <c_st_o_001.Energy>              =          1  not calculated
+x[307]   <c_st_o_001.Exergy>              =          1  not calculated
+x[308]   <c_st_g_005.p>                   =       1.05  not calculated
+x[309]   <c_st_g_005.t>                   =         25  set
+x[310]   <c_st_g_005.h>                   =          1  not calculated
+x[311]   <c_st_g_005.s>                   =          1  not calculated
+x[312]   <c_st_g_005.e>                   =          1  not calculated
+x[313]   <c_st_g_005.v>                   =          1  not calculated
+x[314]   <c_st_g_005.h_total>             =          1  not calculated
+x[315]   <c_st_g_005.massflow>            =    -7.4861  not converged
+x[316]   <c_st_g_005.Mass_total>          =          1  not calculated
+x[317]   <c_st_g_005.nvolflow>            =    -5.7921  not converged
+x[318]   <c_st_g_005.opvolflow>           =          1  not calculated
+x[319]   <c_st_g_005.Energy>              =          1  not calculated
+x[320]   <c_st_g_005.Exergy>              =          1  not calculated
+x[321]   <c_st_g_005.dust_content>        =          1  not calculated
+x[322]   <c_st_g_005.h_dust>              =          1  not calculated
+x[323]   <c_st_g_005.s_dust>              =          1  not calculated
+x[324]   <c_st_g_005.e_dust>              =          1  not calculated
+x[325]   <c_st_g_005.char_content>        =          1  not calculated
+x[326]   <c_st_g_005.h_char>              =          1  not calculated
+x[327]   <c_st_g_005.s_char>              =          1  not calculated
+x[328]   <c_st_g_005.e_char>              =          1  not calculated
+x[329]   <c_st_g_005.tar_content>         =          1  not calculated
+x[330]   <c_st_g_005.h_tar>               =          1  not calculated
+x[331]   <c_st_g_005.s_tar>               =          1  not calculated
+x[332]   <c_st_g_005.e_tar>               =          1  not calculated
+x[333]   <c_st_g_005.T_sat>               =          1  not calculated
+x[334]   <c_st_g_004.p>                   =       1.05  set
+x[335]   <c_st_g_004.t>                   =         25  set
+x[336]   <c_st_g_004.h>                   =          1  not calculated
+x[337]   <c_st_g_004.s>                   =          1  not calculated
+x[338]   <c_st_g_004.e>                   =          1  not calculated
+x[339]   <c_st_g_004.v>                   =          1  not calculated
+x[340]   <c_st_g_004.h_total>             =          1  not calculated
+x[341]   <c_st_g_004.massflow>            =     7.1988  not converged
+x[342]   <c_st_g_004.Mass_total>          =          1  not calculated
+x[343]   <c_st_g_004.nvolflow>            =     10.058  not converged
+x[344]   <c_st_g_004.opvolflow>           =          1  not calculated
+x[345]   <c_st_g_004.Energy>              =          1  not calculated
+x[346]   <c_st_g_004.Exergy>              =          1  not calculated
+x[347]   <c_st_g_004.dust_content>        =          1  not calculated
+x[348]   <c_st_g_004.h_dust>              =          1  not calculated
+x[349]   <c_st_g_004.s_dust>              =          1  not calculated
+x[350]   <c_st_g_004.e_dust>              =          1  not calculated
+x[351]   <c_st_g_004.char_content>        =          1  not calculated
+x[352]   <c_st_g_004.h_char>              =          1  not calculated
+x[353]   <c_st_g_004.s_char>              =          1  not calculated
+x[354]   <c_st_g_004.e_char>              =          1  not calculated
+x[355]   <c_st_g_004.tar_content>         =          1  not calculated
+x[356]   <c_st_g_004.h_tar>               =          1  not calculated
+x[357]   <c_st_g_004.s_tar>               =          1  not calculated
+x[358]   <c_st_g_004.e_tar>               =          1  not calculated
+x[359]   <c_st_g_004.T_sat>               =          1  not calculated
+x[360]   <c_st_g_003.p>                   =          1  not calculated
+x[361]   <c_st_g_003.t>                   =          1  not calculated
+x[362]   <c_st_g_003.h>                   =          1  not calculated
+x[363]   <c_st_g_003.s>                   =          1  not calculated
+x[364]   <c_st_g_003.e>                   =          1  not calculated
+x[365]   <c_st_g_003.v>                   =          1  not calculated
+x[366]   <c_st_g_003.h_total>             =          1  not calculated
+x[367]   <c_st_g_003.massflow>            =  0.0016668  not converged
+x[368]   <c_st_g_003.Mass_total>          =          1  not calculated
+x[369]   <c_st_g_003.nvolflow>            =    0.24419  not converged
+x[370]   <c_st_g_003.opvolflow>           =          1  not calculated
+x[371]   <c_st_g_003.Energy>              =          1  not calculated
+x[372]   <c_st_g_003.Exergy>              =          1  not calculated
+x[373]   <c_st_g_003.dust_content>        =          1  not calculated
+x[374]   <c_st_g_003.h_dust>              =          1  not calculated
+x[375]   <c_st_g_003.s_dust>              =          1  not calculated
+x[376]   <c_st_g_003.e_dust>              =          1  not calculated
+x[377]   <c_st_g_003.char_content>        =          1  not calculated
+x[378]   <c_st_g_003.h_char>              =          1  not calculated
+x[379]   <c_st_g_003.s_char>              =          1  not calculated
+x[380]   <c_st_g_003.e_char>              =          1  not calculated
+x[381]   <c_st_g_003.tar_content>         =          1  not calculated
+x[382]   <c_st_g_003.h_tar>               =          1  not calculated
+x[383]   <c_st_g_003.s_tar>               =          1  not calculated
+x[384]   <c_st_g_003.e_tar>               =          1  not calculated
+x[385]   <c_st_g_003.T_sat>               =          1  not calculated
+x[386]   <c_st_g_002.p>                   =          1  converged
+x[387]   <c_st_g_002.t>                   =          1  not calculated
+x[388]   <c_st_g_002.h>                   =          1  not calculated
+x[389]   <c_st_g_002.s>                   =          1  not calculated
+x[390]   <c_st_g_002.e>                   =          1  not calculated
+x[391]   <c_st_g_002.v>                   =          1  not calculated
+x[392]   <c_st_g_002.h_total>             =          1  not calculated
+x[393]   <c_st_g_002.massflow>            =          1  not calculated
+x[394]   <c_st_g_002.Mass_total>          =          1  not calculated
+x[395]   <c_st_g_002.nvolflow>            =          1  not calculated
+x[396]   <c_st_g_002.opvolflow>           =          1  not calculated
+x[397]   <c_st_g_002.Energy>              =          1  not calculated
+x[398]   <c_st_g_002.Exergy>              =          1  not calculated
+x[399]   <c_st_g_002.dust_content>        =          0  not calculated
+x[400]   <c_st_g_002.h_dust>              =          1  not calculated
+x[401]   <c_st_g_002.s_dust>              =          1  not calculated
+x[402]   <c_st_g_002.e_dust>              =          1  not calculated
+x[403]   <c_st_g_002.char_content>        =          1  not calculated
+x[404]   <c_st_g_002.h_char>              =          1  not calculated
+x[405]   <c_st_g_002.s_char>              =          1  not calculated
+x[406]   <c_st_g_002.e_char>              =          1  not calculated
+x[407]   <c_st_g_002.tar_content>         =          1  not calculated
+x[408]   <c_st_g_002.h_tar>               =          1  not calculated
+x[409]   <c_st_g_002.s_tar>               =          1  not calculated
+x[410]   <c_st_g_002.e_tar>               =          1  not calculated
+x[411]   <c_st_g_002.T_sat>               =          1  not calculated
+x[412]   <c_st_g_001.p>                   =       1.05  not calculated
+x[413]   <c_st_g_001.t>                   =         25  set
+x[414]   <c_st_g_001.h>                   =     25.092  converged
+x[415]   <c_st_g_001.s>                   =          1  not calculated
+x[416]   <c_st_g_001.e>                   =          1  not calculated
+x[417]   <c_st_g_001.v>                   =          1  not calculated
+x[418]   <c_st_g_001.h_total>             = -8.9567e-05  converged
+x[419]   <c_st_g_001.massflow>            =         25  set
+x[420]   <c_st_g_001.Mass_total>          =          1  not calculated
+x[421]   <c_st_g_001.nvolflow>            =          1  not calculated
+x[422]   <c_st_g_001.opvolflow>           =          1  not calculated
+x[423]   <c_st_g_001.Energy>              =          1  not calculated
+x[424]   <c_st_g_001.Exergy>              =          1  not calculated
+x[425]   <c_st_g_001.dust_content>        =          1  not calculated
+x[426]   <c_st_g_001.h_dust>              =          1  not calculated
+x[427]   <c_st_g_001.s_dust>              =          1  not calculated
+x[428]   <c_st_g_001.e_dust>              =          1  not calculated
+x[429]   <c_st_g_001.char_content>        =          1  not calculated
+x[430]   <c_st_g_001.h_char>              =          1  not calculated
+x[431]   <c_st_g_001.s_char>              =          1  not calculated
+x[432]   <c_st_g_001.e_char>              =          1  not calculated
+x[433]   <c_st_g_001.tar_content>         =          1  not calculated
+x[434]   <c_st_g_001.h_tar>               =          1  not calculated
+x[435]   <c_st_g_001.s_tar>               =          1  not calculated
+x[436]   <c_st_g_001.e_tar>               =          1  not calculated
+x[437]   <c_st_g_001.T_sat>               =          1  not calculated
+x[438]   <u_pyrol_htd_001.dp_air_comb>    =       0.05  set
+x[439]   <u_pyrol_htd_001.dp_air_rel_comb> =          1  not calculated
+x[440]   <u_pyrol_htd_001.dp_fuel_comb>   =       0.05  set
+x[441]   <u_pyrol_htd_001.dp_fuel_rel_comb> =          1  not calculated
+x[442]   <u_pyrol_htd_001.P_th_comb>      =        100  converged
+x[443]   <u_pyrol_htd_001.lambda_comb>    =       1.05  set
+x[444]   <u_pyrol_htd_001.CO_slip_comb>   =          0  set
+x[445]   <u_pyrol_htd_001.Q_loss_comb>    =         10  set
+x[446]   <u_pyrol_htd_001.q_loss_rel_comb> =         10  set
+x[447]   <u_pyrol_htd_001.Q_trans>        =        800  set
+x[448]   <u_pyrol_htd_001.dp_feed_org>    =       0.05  set
+x[449]   <u_pyrol_htd_001.dp_feed_org_rel> =          1  not calculated
+x[450]   <u_pyrol_htd_001.dp_feed_gas>    =       0.05  set
+x[451]   <u_pyrol_htd_001.dp_feed_gas_rel> =          1  not calculated
+x[452]   <u_pyrol_htd_001.dp_drain_gas_char> =       0.05  set
+x[453]   <u_pyrol_htd_001.dt_drain_gas_char> =          0  set
+x[454]   <u_pyrol_htd_001.P_th_pyr>       =          1  not calculated
+x[455]   <u_pyrol_htd_001.fract_char_bed> =        0.4  set
+x[456]   <u_pyrol_htd_001.fract_char_pg>  =        0.2  not calculated
+x[457]   <u_pyrol_htd_001.fract_tar_pg>   =        0.4  not calculated
+x[458]   <u_pyrol_htd_001.fract_fly_ash>  =          1  set
+x[459]   <u_pyrol_htd_001.unconv_C>       =          1  not calculated
+x[460]   <u_pyrol_htd_001.E_loss>         =          1  not calculated
+
+========================================================================
+Solution
+Start:	Oct 03 2024, 17:03:19.273
+End:  	Oct 03 2024, 17:03:19.420
+Actual Time:	0.147000 seconds
+CPU Time:   	0.093000 seconds
+CPU Percentage:	16%
+1 errors (0 recovered errors)
+14 warnings (0 recovered warnings)
+========================================================================
